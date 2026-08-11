@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<pretext xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://purl.org/dc/terms/">
+<pretext xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="https://prefigure.org">
   <exercise xml:id="umich_2024-02-12_0116_4">
     <provenance> <dc:creator>Matthew Leingang</dc:creator> <ns1:created>2025-08-18</ns1:created> <dc:source>https://dhsp.math.lsa.umich.edu/exams/116exam1/w24/p4.pdf</dc:source> <dc:rights>This source is used under a Creative Commons License (CC-BY-NC-SA-4.0).</dc:rights> </provenance>
     <introduction>
@@ -291,4 +291,1816 @@
     </statement>
 
     </exercise>
+
+      <exercise xml:id="ex-trig-sub-definite-x-squared-plus-four-ps03-tr">
+        <statement>
+          <p>
+            Evaluate the definite integral
+            <me>
+              \int_1^3 \frac{dx}{x^2\sqrt{x^2+4}}
+            </me>.
+            Explain your steps and justify your choices for trigonometric substitution.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-trig-sub-completing-the-square-ps03-tr">
+        <statement>
+          <p>
+            Evaluate the indefinite integral
+            <me>
+              \int \frac{x^2}{\sqrt{4x-x^2}} \,dx
+            </me>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-trig-sub-one-over-x-sqrt-ps03-tr">
+        <statement>
+          <p>
+            Evaluate the indefinite integral
+            <me>
+              \int \frac{1}{x\sqrt{4-x^2}} \,dx
+            </me>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-trig-sub-definite-x-squared-plus-four-ps04-mw">
+        <statement>
+          <p>
+            Evaluate the definite integral
+            <me>
+              \int_1^3 \frac{dx}{x^2\sqrt{x^2+4}}
+            </me>.
+            Explain your steps and justify your choices for trigonometric substitution.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-trig-sub-completing-the-square-ps04-mw">
+        <statement>
+          <p>
+            Evaluate the indefinite integral
+            <me>
+              \int \frac{x^2}{\sqrt{4x-x^2}} \,dx
+            </me>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-trig-sub-one-over-x-sqrt-ps04-mw">
+        <statement>
+          <p>
+            Evaluate the indefinite integral
+            <me>
+              \int \frac{1}{x\sqrt{4-x^2}} \,dx
+            </me>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-partial-fractions-long-division-ps04-mw">
+        <statement>
+          <p>
+            Evaluate the indefinite integral
+            <me>
+              \int \frac{x^3-4x-10}{x^2-x-6} \,dx
+            </me>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-partial-fractions-repeated-quadratic-ps04-mw">
+        <statement>
+          <p>
+            Evaluate the definite integral
+            <me>
+              \int_{0}^{1/\sqrt{3}} \frac{x}{(x-1)^2(x^2+1)} \,dx
+            </me>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-partial-fractions-u-sub-ps04-mw">
+        <statement>
+          <p>
+            Evaluate the indefinite integral
+            <me>
+              \int \frac{1}{e^{2x}-e^x-2} \,dx
+            </me>.
+          </p>
+        </statement>
+
+        </exercise>
+
+        <exercise xml:id="ex-partial-fractions-long-division-ps04-tr">
+          <statement>
+            <p>
+              Evaluate the indefinite integral
+              <me>
+                \int \frac{x^3-4x-10}{x^2-x-6} \,dx
+              </me>.
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="ex-partial-fractions-repeated-quadratic-ps04-tr">
+          <statement>
+            <p>
+              Evaluate the definite integral
+              <me>
+                \int_{0}^{1/\sqrt{3}} \frac{x}{(x-1)^2(x^2+1)} \,dx
+              </me>.
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="ex-partial-fractions-u-sub-ps04-tr">
+          <statement>
+            <p>
+              Evaluate the indefinite integral
+              <me>
+                \int \frac{1}{e^{2x}-e^x-2} \,dx
+              </me>.
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="ex-simpsons-rule-revised-ps04-tr">
+          <statement>
+            <p> Use Simpson's Rule with <m>n=4</m> to approximate the definite integral <m>\int_0^4
+              \frac{1}{1+x^2} \,dx</m>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-trapezoidal-rule-ps04-tr">
+          <statement>
+            <p> Use the Trapezoidal Rule with <m>n=4</m> to approximate the definite integral <m>\int_0^2
+              \sqrt{1+x^3} \,dx</m>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-erf-approximation-ps04-tr">
+          <introduction>
+            <p> Let <me>f(x) =
+                \frac{1}{\sqrt{2\pi}}e^{-x^2/2}</me>. The function <m>f</m> is the probability
+              density function of a normally distributed random variable with mean <m>0</m> and
+              standard deviation <m>
+                1</m>. The function <me>E = \int_0^x f(t)\,dt</me> can be used
+              to compute probability that the variable lies within any given interval. Remember that <m>
+              f(x)</m> is not integrable in elementary terms. </p>
+          </introduction>
+          <task>
+            <statement>
+              <p> Use your favorite graphing technology (e.g., Desmos, Geogebra, Wolfram Alpha) to
+                find an upper bound for the absolute value of <me>
+                  f^{(4)}(x) = \frac{1}{\sqrt{2\pi}}e^{-x^2/2}(x^4 - 6x^2 + 3)
+                </me>
+                on <m>[0,1]</m>. Include a graph in your submission. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p> find the number of subdivisions <m>n</m> needed to guarantee that <m>S_n</m> for <m>
+                E(1)</m> is within <m>
+                  \frac{1}{1000}</m> of the exact value. </p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-simpsons-rule-revised-ps05-mw">
+          <statement>
+            <p> Use Simpson's Rule with <m>n=4</m> to approximate the definite integral <m>\int_0^4
+              \frac{1}{1+x^2} \,dx</m>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-improper-integral-type-2-ps05-mw">
+          <statement>
+            <p> Determine if the integral <me>\int_0^1 \frac{1}{\sqrt{x}} \,dx</me> converges or
+              diverges. If it converges, find its value. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-trapezoidal-rule-ps05-mw">
+          <statement>
+            <p> Use the Trapezoidal Rule with <m>n=4</m> to approximate the definite integral <m>\int_0^2
+              \sqrt{1+x^3} \,dx</m>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-improper-integral-type-1-ps05-mw">
+          <statement>
+            <p> Determine if the integral <me>\int_1^\infty \frac{1}{x^3} \,dx</me> converges or
+              diverges. If it converges, find its value. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-trapezoidal-midpoint-linearcombination">
+          <statement>
+            <p>
+              When approximating any definite integral using the trapezoidal rule, midpoint rule, or Simpson's rule, 
+              show that <me> \frac{1}{3} T_n + \frac{2}{3} M_n = S_{2n} </me> 
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-erf-approximation-ps05-mw">
+          <introduction>
+            <p> Let <me>f(x) =
+                \frac{1}{\sqrt{2\pi}}e^{-x^2/2}</me>. The function <m>f</m> is the probability
+              density function of a normally distributed random variable with mean <m>0</m> and
+              standard deviation <m>
+                1</m>. The function <me>E = \int_0^x f(t)\,dt</me> can be used
+              to compute probability that the variable lies within any given interval. Remember that <m>
+              f(x)</m> is not integrable in elementary terms. </p>
+          </introduction>
+          <task>
+            <statement>
+              <p> Use your favorite graphing technology (e.g., Desmos, Geogebra, Wolfram Alpha) to
+                find an upper bound for the absolute value of <me>
+                  f^{(4)}(x) = \frac{1}{\sqrt{2\pi}}e^{-x^2/2}(x^4 - 6x^2 + 3)
+                </me>
+                on <m>[0,1]</m>. Include a graph in your submission. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p> find the number of subdivisions <m>n</m> needed to guarantee that <m>S_n</m> for <m>
+                E(1)</m> is within <m>
+                  \frac{1}{1000}</m> of the exact value. </p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-improper-integral-type-2-ps05-tr">
+          <statement>
+            <p>
+              Determine if the integral
+              <me>
+                \int_0^1 \frac{1}{\sqrt{x}} \,dx
+              </me>
+              converges or diverges.
+              If it converges, find its value.
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="ex-improper-integral-type-1-ps05-tr">
+          <statement>
+            <p>
+              Determine if the integral
+              <me>
+                \int_1^\infty \frac{1}{x^3} \,dx
+              </me>
+              converges or diverges.
+              If it converges, find its value.
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="ex-improper-integral-comparison-test">
+          
+          <statement>
+            <p>
+              Use the comparison test to determine if the integral
+              <me>
+                \int_1^\infty \frac{x^3}{x^5+2} \,dx
+              </me>
+              converges or diverges.
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="ex-ps05-tr-04">
+          
+          <introduction>
+            <p>
+              We claim that 
+              <me>
+                \int_0^\infty \frac{\ln x}{1+x^2} \,dx = 0 
+              </me>            
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                First, show that <m>\displaystyle\int_1^\infty \frac{\ln x}{1+x^2} \,dx</m> converges.
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Next, show that <m>\displaystyle\int_0^1 \frac{\ln x}{1+x^2} \,dx = - \int_1^\infty \frac{\ln x}{1+x^2} \,dx</m>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Use the substitution <m>u = \frac{1}{x}</m>.
+              </p>
+            </hint>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Finally, conclude that
+                <me>
+                  \int_0^\infty \frac{\ln x}{1+x^2} \,dx = 0
+                </me>
+              </p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-ps05-tr-05">
+          
+          <introduction>
+            <p>
+              We can extend our definition of the average value of a continuous
+              function to an infinite integral by defining the average value of 
+              <m>f</m> on <m>[a,\infty)</m> to be 
+              <me>
+                \bar f = \lim_{t\to\infty}\frac{1}{t-a} \int_a^\infty f(x)\,dx
+              </me>
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Find the average value of <m>y = \tan^{-1} x</m> on the interval <m>[0,\infty)</m>.
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                If <m>f(x) \geq 0</m>, <m>\lim_{x\to\infty} f(x) = L</m> exists, 
+                and <m>\int_a^\infty f(x)\,dx</m> diverges, show that <m>\bar f = L</m>.
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                What is <m>\bar f</m> if <m>\int_a^\infty f(x)\,dx</m> converges?
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Find the average value of <m>y = \sin x</m> on the interval <m>[0,\infty)</m>.
+              </p>
+            </statement>
+            </task>
+        </exercise>
+
+                <exercise xml:id="ex-area-between-curves-cubic-quadratic">
+                    <provenance>
+                        <dc:creator>Matthew Leingang</dc:creator>
+                        <ns1:created>2025-09-27</ns1:created>
+                    </provenance>
+                    <statement>
+                        <p> The curves with equations <m>y=x^2-1</m> and <m>y=2x^3-14x^2+27x-11</m>
+                            intersect in three points. Two of those points are in the first quadrant
+                            (both <m>x</m>- and <m>y</m>-coordinates are positive). Find the area of
+                            the region bounded by the curves between those two first quadrant
+                            points. </p>
+                    </statement>
+                    </exercise>
+
+                <exercise xml:id="ex-area-between-curves">
+                    <provenance>
+                        <dc:creator>ChatGPT</dc:creator>
+                        <ns1:created>2025-09-27</ns1:created>
+                    </provenance>
+                    <statement>
+                        <p> Find the area of the region bounded by the curves <m>x = y^{2}</m> and <m>x
+                            = 2y+3</m>. </p>
+                    </statement>
+                    </exercise>
+
+                <exercise xml:id="tag-paddymacmahon-com-2025-08-31-area">
+                    <provenance>
+                        <ns1:identifier>
+                            https://bsky.app/profile/paddymacmahon.com/post/3lxoj77bxw22c</ns1:identifier>
+                        <dc:creator>Paddy MacMahon</dc:creator>
+                    </provenance>
+                    <statement>
+                        <p> Suppose that <m>k</m> is a positive number. The curves with equations <m>
+                            y=3x(3-x)</m> and <m>y=\frac{1}{k} (x-k)^2</m> usually intersect in two
+                            points or no points. But for one value of <m>k</m> they intersect
+                            exactly once. </p>
+                        <p> Find that value of <m>k</m>, and the area of the region between the two
+                            curves, the <m>y</m>-axis, and that intersection point. </p>
+                    </statement>
+                    </exercise>
+
+                <exercise xml:id="ex-volume-washers">
+                    <statement>
+                        <p> Find the volume of the solid generated by rotating the region bounded by <m>
+                            y=x^2</m> and <m>y=2x</m> about the <m>x</m>-axis. </p>
+                    </statement>
+
+                    </exercise>
+
+                <exercise xml:id="ex-volume-squares">
+                    <statement>
+                        <p> The base of a solid is the region enclosed by the parabola <m>y=1-x^2</m>
+                            and the <m>x</m>-axis. Find the volume of the solid if cross-sections
+                            perpendicular to the <m>y</m>-axis are squares. </p>
+                    </statement>
+
+                    </exercise>
+
+                <exercise xml:id="ex-volume-revolve-y-axis">
+                    <statement>
+                        <p> Find the volume of the solid generated by rotating the region bounded by <m>
+                            y=\sin^{-1}(x)</m>, <m>x=0</m>, and <m>y=\frac{\pi}{2}</m> about the <m>y</m>
+                            -axis. </p>
+                    </statement>
+
+                    </exercise>
+
+        <exercise xml:id="ex-shells-method">
+          <statement>
+            <p> Find the volume of the solid generated by rotating the region bounded by <m>y=x^2</m>
+              , <m>x=1</m>, and the <m>x</m>-axis about the <m>y</m>-axis. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="ex-shells-method-2">
+          <statement>
+            <p> Find the volume of the solid generated by rotating the region bounded by <m>y=x-x^2</m>
+              and the <m>x</m>-axis about the line <m>x=2</m>. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="leingang-2025-10-04-15-50-sor">
+          <introduction>
+            <p> The region <m>D</m> is bounded on the left by the line <m>y=2x-2</m>, on the right
+              by the parabola <m>y=8x-6-2x^2</m>, and below by the <m>x</m>-axis. Let <m>E</m> be
+              the solid formed by revolving <m>D</m> around the <m>y</m>-axis. </p>
+          </introduction>
+          <task>
+            <statement>
+              <p> Write down an integral expression for the volume of <m>E</m> that uses the washer
+                method. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p> Write down an integral expression for the volume of <m>E</m> that uses the shell
+                method. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p> Find the volume of <m>E</m> by evaluating your answer to one of the previous two
+                parts. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                In a paragraph, explain why you made the choice you did.
+              </p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-arc-length-revised">
+          <statement>
+            <p> Find the exact length of the curve given by <m>y = \frac{x^3}{6} + \frac{1}{2x}</m>
+              for <m>1 \le x \le 2</m>. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise xml:id="ex-arc-length-2">
+          <statement>
+            <p> Find the length of the curve defined by <m>y = \frac{1}{2}\ln(\sin 2x)</m> from <m>
+              x=\frac{\pi}{6}</m> to <m>
+                x=\frac{\pi}{3}</m>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-ps07-06">
+          <introduction>
+            <p>
+              Many arc length integrals are not able to be evaluated in elementary terms.
+              Here is an example.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p> Write down an integral expression which computes the length of the curve <m>y=\sin
+                x</m> between <m>x = 0</m> and <m>x=\pi</m>. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Use Simpson's rule with six divisions to approximate the integral you derived.
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Use technology to evaluate the integral you approximated and compare your answer.
+              </p>
+            </statement>
+            </task>
+        </exercise>
+
+      <exercise xml:id="ex-Rogawki-10-01-33">
+        <statement>
+          <p>
+            Solve the initial value problem <m>y' = (x-1)(y-2)</m>, <m>y(2) = 4</m>.
+          </p>
+        </statement>
+        </exercise>
+
+      <exercise xml:id="ex-Rogawski-10-01-44">
+        <statement>
+          <p>
+            Find all values of <m>a</m> such that the function <m>y = e^{ax}</m> is a solution to the differential equation
+            <me>
+              y'' + 4y' -12y = 0               
+            </me>
+          </p>
+        </statement>
+        </exercise>
+
+      <exercise xml:id="ex-match-slope-fields">
+        <statement>
+          <p>
+            Match the differential equation with its slope field.
+            <ol>
+              <li>
+                <m> \frac{dy}{dt} = y+t </m>
+              </li>
+
+              <li>
+                <m> \frac{dy}{dt} = yt </m>
+              </li>
+
+              <li>
+                <m> \frac{dy}{dt} = y-1 </m>
+              </li>
+            </ol>
+          </p>
+
+          <figure xml:id="fig-slope-fields">
+            <caption>Three slope fields</caption>
+            <sidebyside widths="30% 30% 30%">
+              <figure>
+                <caption>Slope field A</caption>
+                <image>
+                  <ns2:prefigure label="prefig-slope-field-a">
+                  <ns2:diagram dimensions="(300,300)" margins="10">
+                  <ns2:definition>
+f(t,y) = t*y
+                  </ns2:definition>
+                  <ns2:coordinates bbox="[-4,-4,4,4]">
+                  <ns2:grid-axes xlabel="t" ylabel="y" />
+                  <ns2:slope-field function="f" stroke="#57068c" />
+                  <ns2:label anchor="(0,-4)" alignment="n">(A)</ns2:label>
+                  </ns2:coordinates>
+                  </ns2:diagram>
+                  </ns2:prefigure>
+                </image>
+              </figure>
+
+              <figure>
+                <caption>Slope field B</caption>
+                <image>
+                  <ns2:prefigure label="prefig-slope-field-b">
+                  <ns2:diagram dimensions="(300,300)" margins="10">
+                  <ns2:definition>
+f(t,y) = t+y
+                  </ns2:definition>
+                  <ns2:coordinates bbox="[-4,-4,4,4]">
+                  <ns2:grid-axes xlabel="t" ylabel="y" />
+                  <ns2:slope-field function="f" stroke="#57068c" />
+                  <ns2:label anchor="(0,-4)" alignment="n">(B)</ns2:label>
+                  </ns2:coordinates>
+                  </ns2:diagram>
+                  </ns2:prefigure>
+                </image>
+              </figure>
+
+              <figure>
+                <caption>Slope field C</caption>
+                <image>
+                  <ns2:prefigure label="prefig-slope-field-c">
+                  <ns2:diagram dimensions="(300,300)" margins="10">
+                  <ns2:definition>
+f(t,y) = y-1
+                  </ns2:definition>
+                  <ns2:coordinates bbox="[-4,-4,4,4]">
+                  <ns2:grid-axes xlabel="t" ylabel="y" />
+                  <ns2:slope-field function="f" stroke="#57068c" />
+                  </ns2:coordinates>
+                  </ns2:diagram>
+                  </ns2:prefigure>
+                </image>
+              </figure>
+            </sidebyside>
+          </figure>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-mixing-problem">
+        <introduction>
+          <p>
+            A tank initially contains <m>w</m> <quantity> <unit base="liter" /> </quantity> of a solution in which is dissolved <m> A_0</m> grams of chemical.
+            A solution containing <m>k</m> <quantity> <unit base="gram" /> <per base="liter" /> </quantity> of this chemical flows into the tank at a rate of <m>r</m> <quantity> <unit base="liter" /> <per base="minute" /> </quantity>, and the mixture flows out at the same rate.
+          </p>
+
+          <p>
+            Let <m>A(t)</m> be the mass of chemical in the tank at time <m>t</m>.
+          </p>
+        </introduction>
+
+
+        <task>
+          <statement>
+            <p>
+              Find a differential equation and initial value problem satisfied by <m>A(t)</m>.
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Solve this initial value problem for <m>A(t)</m>.
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Show that as <m>t\to\infty</m>, the concentration of chemical in the tank approaches <m>k</m> <quantity> <unit base="gram" /> <per base="liter" /> </quantity>.
+              Is this result reasonable? Explain.
+            </p>
+          </statement>
+
+          </task>
+      </exercise>
+
+      <exercise xml:id="ex-Rogawski-10-03-12">
+        <introduction>
+          <p>
+            A tissue culture grows until it has a maximum area of <m>M</m><quantity> <unit prefix="centi" base="meter" exp="2" /> </quantity>.
+            The area <m> A(t)</m> of the culture at time <m>t</m> may be modeled by the differential equation
+            <me>
+              \frac{dA}{dt} = k \sqrt{A} \left(1 - \frac{A}{M}\right)
+            </me>
+            where <m>k</m> is a growth constant.
+          </p>
+        </introduction>
+
+
+        <task>
+          <statement>
+            <p>
+              Let <m>u = \sqrt{A}</m>.
+              Show that
+              <me>
+                \frac{du}{dt} = \frac{k}{2}\left(1- \frac{u^2}{M}\right)
+              </me>
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Use separation of variables to find the general solution for <m>u(t)</m>.
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Finally, find the general solution for <m>A(t)</m>.
+            </p>
+          </statement>
+
+          </task>
+      </exercise>
+
+      <exercise xml:id="ex-ode-tractrix">
+        
+        <introduction>
+          <p>
+            A curve <m>C</m> in the first quadrant passes through 
+            <m>(0,\ell)</m> and is defined by the rule that at any point 
+            <m>P=(x_0,y_0)</m> on <m>C</m>, the distance from <m>P</m> 
+            to the <m>x</m>-axis along the line tangent to <m>C</m> 
+            equals <m>\ell</m>.
+            This curve is called a <em>tractrix</em>.
+          </p>
+            <figure xml:id="ex-ode-tractrix-figure">
+              <caption>
+                The tractrix curve. The distance from a point to the <m>x</m>-axis 
+                is <m>\ell</m>.
+              </caption>
+              <image>
+                <ns2:prefigure label="ex-ode-tractrix-prefig-a">
+                  <ns2:diagram dimensions="(300,300)" margins="5">
+                    <ns2:definition>f(t) = t</ns2:definition>
+                    <ns2:definition>g(t) = 2*ln((2+sqrt(4-t^2))/t)-sqrt(4-t^2)</ns2:definition>
+                    <ns2:definition>c(t) = (g(t),f(t))</ns2:definition>
+                    <ns2:definition>dc(t) = deriv(c,t)</ns2:definition>
+                    <ns2:definition>L(t) = c(1) + dc(1)*(t-1)</ns2:definition>
+                    <ns2:coordinates bbox="(-0.5,-0.5,5,2)">
+                      <ns2:axes xlabel="x" ylabel="y" />
+                      <ns2:parametric-curve function="c" domain="(0.1,2)" stroke="#57068c" />
+                      <ns2:parametric-curve function="L" domain="(0,2)" stroke="#8900e1" />
+                      <ns2:point p="c(1)" stroke="#57068c" fill="#8900e1" />
+                    </ns2:coordinates>
+                  </ns2:diagram>
+                </ns2:prefigure>
+              </image>
+            </figure>
+          <p>
+            Let <m>y=f(x)</m> be the equation of the curve <m>C</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Show that <m>y^2 + (y/y')^2 = \ell^2</m> and conclude that
+              <me>
+                y' = - \frac{y}{\sqrt{\ell^2 - y^2}}
+              </me>
+              Why must we choose the negative square root in this expression for <m>y'</m>?
+            </p>
+          </statement>
+          </task>
+        <task>
+          <statement>
+            <p>
+              Solve the differential equation and initial value problem for <m>x</m>
+              in terms of <m>y</m>.
+            </p>
+          </statement>
+          </task>
+      </exercise>
+
+      <exercise xml:id="ex-sequences-converge">
+        <statement>
+          <p>
+            Determine the limits of the following sequences, if they exist:
+            <ol>
+              <li xml:id="ex-Rogawski-11-01-18">
+                <p>
+                  <m>a_n = \dfrac{4+n-3n^2}{4n^2+1}</m>
+                </p>
+              </li>
+
+              <li xml:id="ex-Rogawski-11-01-59">
+                <p>
+                  <m>a_n = \dfrac{3-4^n}{2+7\cdot 4^n}</m>
+                </p>
+              </li>
+
+              <li xml:id="ex-Rogawski-11-01-62">
+                <p>
+                  <m>a_n = n \sin \left(\frac{\pi}{n}\right)</m>
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-Rogawski-11-01-64">
+        <statement>
+          <p>
+            Use L'Hôpital's Rule to evaluate
+            <me>
+              \lim_{n\to\infty} \sqrt{n} \ln\left(1 + \frac{1}{n}\right)
+            </me>
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-Rogawski-11-01-83">
+        <statement>
+          <p>
+            Show that the sequence
+            <me>
+              \sqrt{3}, \sqrt{3\sqrt{3}}, \sqrt{3\sqrt{3\sqrt{3}}}, \sqrt{3\sqrt{3\sqrt{3\sqrt{3}}}}, \ldots
+            </me>
+            is increasing and bounded above by 3.
+            Find the limit of the sequence.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-2026-01-25-test-for-divergence">
+        <task>
+          <statement>
+            <p>
+              Determine whether the <alert>sequence</alert> <m>a_n = \frac{3n^2+1}{n^2-2}</m> converges or diverges.
+              If it converges, find its limit.
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Determine whether the <alert>series</alert> <m>\sum_{n=0}^\infty \frac{3n^2+1}{n^2-2}</m> converges or diverges.
+              If it converges, find its limit.
+            </p>
+          </statement>
+
+          </task>
+      </exercise>
+
+      <exercise xml:id="ex-Rogawksi-11-02-13">
+        <introduction>
+          <p>
+            Consider the series <m>\sum_{n=1}^\infty \frac{1}{4n^2-1}</m>.
+          </p>
+        </introduction>
+
+
+        <task>
+          <statement>
+            <p>
+              Evaluate the first five partial sums of the series.
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Evaluate the sum of the series.
+            </p>
+          </statement>
+
+          </task>
+      </exercise>
+
+      <exercise xml:id="ex-Rogawski-11-03-45">
+        <statement>
+          <figure>
+            <image>
+              <ns2:prefigure label="prefig-ex-Rogawski-11-03-45">
+              <ns2:diagram dimensions="(300,300)" margins="5">
+              <ns2:definition>
+NyuViolet="#57068c"
+              </ns2:definition>
+
+              <ns2:definition>
+UltraViolet="#8900e1"
+              </ns2:definition>
+
+              <ns2:definition>
+MediumViolet1="#702b9d"
+              </ns2:definition>
+
+              <ns2:definition>
+MediumViolet2="#7b5aa6"
+              </ns2:definition>
+
+              <ns2:definition>
+LightViolet1="#ab82c5"
+              </ns2:definition>
+
+              <ns2:definition>
+LightViolet2="#eee6f3"
+              </ns2:definition>
+
+              <ns2:definition>
+a=0.5
+              </ns2:definition>
+
+              <ns2:definition>
+b=0
+              </ns2:definition>
+              <ns2:coordinates bbox="(-0.2,-0.2,1.2,1.2)">
+              <ns2:polygon points="((0,0),(1,0),(1,1))" closed="yes" stroke="NyuViolet" />
+              <ns2:repeat parameter="k=1..8">
+              <ns2:polygon points="((b,b),(1,b),(a,a))" closed="no" stroke="UltraViolet" />
+              <ns2:definition>
+b=a
+              </ns2:definition>
+
+              <ns2:definition>
+a=(1+a)/2
+              </ns2:definition>
+              </ns2:repeat>
+              <ns2:label anchor="(0.5,0)" alignment="s" color="#8900e1">
+              <ns2:m>1</ns2:m>
+              </ns2:label>
+              <ns2:angle-marker points="((1,0),(0,0),(1,1))" thickness="1">
+              <ns2:m>\pi/4</ns2:m>
+              </ns2:angle-marker>
+              <ns2:angle-marker points="((0.5,0.5),(1,0),(0,0))" thickness="1">
+              <ns2:m>\pi/4</ns2:m>
+              </ns2:angle-marker>
+              </ns2:coordinates>
+              </ns2:diagram>
+              </ns2:prefigure>
+            </image>
+          </figure>
+
+          <p>
+            Use a geometric series to find the total length of the infinite zigzag path shown in the figure (each zag occurs at an angle of <m> \frac{\pi}{4}</m>).
+          </p>
+        </statement>
+
+        </exercise>
+
+                <exercise xml:id="ex-spivak-22-1-xv">
+                    <task>
+                        <statement>
+                            <p>
+                                Decide if the series <m>\sum_{n=2}^\infty \frac{1}{n \ln n}</m> converges.
+                            </p>
+                        </statement>
+                        </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Decide if the series <m>\sum_{n=2}^\infty \frac{1}{n (\ln n)^2}</m> converges.
+                            </p>
+                        </statement>
+                        </task>
+                </exercise>
+
+                <exercise xml:id="ex-integral-test">
+                    <task>
+                        <statement>
+                            <p> Use the integral test to determine if the series <m>\sum_{n=2}^\infty
+                                \frac{1}{n^3-n^2+n-1}</m> converges. Evaluate the improper integral. </p>
+                        </statement>
+                        </task>
+                    <task>
+                        <statement>
+                            <p> Use the limit comparison test to determine if the series <m>\sum_{n=2}^\infty
+                                \frac{1}{n^3-n^2+n-1}</m> converges. </p>
+                        </statement>
+                        </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Compare and contrast the two methods.
+                            </p>
+                        </statement>
+                        </task>
+                </exercise>
+
+                <exercise xml:id="ex-spivak-22-1-iv">
+                    <statement>
+                        <p>
+                            Decide if the series <m>\sum_{n=2}^\infty \frac{1}{\sqrt[3]{n^2-1}}</m> converges.
+                        </p>
+                    </statement>
+                    </exercise>
+
+                <exercise xml:id="ex-sum-sin-1-on-n">
+                    <statement>
+                        <p> Determine whether the series <m>\sum_{n=1}^\infty \sin\left(\frac{1}{n}\right)</m> converges or diverges. </p>
+                    </statement>
+                    </exercise>
+
+                <exercise xml:id="ex-ps10-05">
+                    <statement>
+                        <p>
+                            Decide if the series <m>\sum_{n=1}^\infty \left(1 - 2^{-1/n}\right)</m> converges.
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            Use the limit comparison test with the series <m>\sum_{n=1}^\infty \frac{1}{n}</m>.
+                        </p>
+                    </hint>
+                    </exercise>
+
+                <exercise xml:id="ex-comparison-test">
+                    <task>
+                        <statement>
+                            <p> Use the comparison test to determine whether the series <m>\sum_{n=1}^\infty
+                                \frac{\cos^2 n}{n^2+1}</m> converges or diverges. </p>
+                        </statement>
+
+                        </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Can the limit comparison test be used instead? Why or why not?
+                            </p>
+                        </statement>
+                        </task>
+                </exercise>
+
+        <exercise xml:id="ex-alternating-series-test">
+          <statement>
+            <p> Determine whether the series <m>\sum_{n=1}^\infty \frac{(-1)^{n-1}}{\arctan(n)}</m>
+              converges or diverges. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-absolute-convergence">
+          <statement>
+            <p> Determine whether the series <m>\sum_{n=1}^\infty \frac{\cos(n^2)}{n 2^n}</m> is
+              absolutely convergent, conditionally convergent, or divergent. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-alternating-series-remainder-estimate">
+          <statement>
+            <p> Find a value of <m>N</m> such that <m>s_N</m> approximates the series <m>\sum_{n=1}^\infty
+              \frac{(-1)^{n+1} \ln n}{n!}</m> with an error less than <m>10^{-5}</m>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-root-test">
+          <statement>
+            <p> Use the Root Test to determine if the series <m>\sum_{n=1}^\infty
+              \left(\frac{3n+1}{2n+5}\right)^n</m> converges or diverges. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-mpl-2025-11-01-powerseries">
+          <statement>
+            <p> For each real number <m>x</m>, determine if the series <m>\sum_{n=1}^\infty
+              \frac{x^n}{n3^n}</m> converges absolutely, converges conditionally, or diverges. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-Rogawski-11-06-27">
+          <statement>
+            <p> Show that <m>\sum_{n=1}^\infty \frac{n!}{n^n}</m> converges. </p>
+          </statement>
+        <hint>
+          <p>
+            <me>
+              \lim_{n\to\infty} \left(1 + \frac{1}{n}\right)^n = e
+            </me>
+          </p>
+        </hint>
+        </exercise>
+
+        <exercise xml:id="ex-Rogawski-11-6-3">
+          <introduction>
+            <p>Show that the three power series below have the same radius of convergence,
+            but three different intervals of convergence.</p>
+          </introduction>
+          <task>
+            <statement>
+              <p><m>\sum_{n=1}^\infty \frac{x^n}{3^n}</m></p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p><m>\sum_{n=1}^\infty \frac{x^n}{n3^n}</m></p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p><m>\sum_{n=1}^\infty \frac{x^n}{n^23^n}</m></p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-Rogawski-11-6-78">
+          <introduction>
+            <p>Find the radius of convergence.</p>
+          </introduction>
+          <task>
+            <statement>
+              <p><m>\sum_{n=0}^\infty \frac{x^{2n}}{3^n}</m></p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p><m>\sum_{n=0}^\infty \frac{x^{3n+1}}{64^n}</m></p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-power-series-convergence-revised">
+          <statement>
+            <p> Find the radius of convergence and interval of convergence for the series <me>\sum_{n=2}^\infty
+              \frac{(-1)^n (x-2)^n}{3^n \ln(n^2)}</me>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="mpl-2025-11-1-hypergeometric">
+          <task xml:id="mpl-2025-11-1-hypergeometric-derivatives">
+            <statement>
+              <p> Find power series representations for <m>\frac{1}{(1-x)^2}</m> and <m>
+                \frac{1}{(1-x)^3}</m> centered at <m>0</m>, along with their radii of convergence. </p>
+            </statement>
+            </task>
+          <task xml:id="mpl-2025-11-1-hypergeometric-algebra">
+            <statement>
+              <p> Use your answers to part <xref ref="mpl-2025-11-1-hypergeometric-derivatives" text="local" /> to find a closed-form rational expression in terms of <m>x</m> for
+                the power series <m>\sum_{n=0}^\infty
+                  n^2 x^n</m>. </p>
+            </statement>
+            </task>
+          <task xml:id="mpl-2025-11-1-hypergeometric-c">
+            <statement>
+              <p> Use your answer to part <xref ref="mpl-2025-11-1-hypergeometric-algebra" text="local" /> to find the exact value of <m>\sum_{n=0}^\infty \frac{n^2}{2^n}</m>
+              </p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-Rogawski-11-6-53">
+          <statement>
+            <p>Show that the power series
+              <me>
+                F(x) = 1-x-x^2+x^3-x^4-x^5+x^6-x^7-x^8\cdots
+              </me>
+              converges for <m>|x| &lt; 1</m>, and compute its sum as a rational function of <m>x</m>. 
+            </p>
+          </statement>
+          <hint>
+            <p>Write <m>F(x)</m> as the sum of three geometric series.</p>
+          </hint>
+          </exercise>
+
+        <exercise xml:id="mpl-2025-11-15-pi">
+          <task xml:id="mpl-2025-11-15-pi-trigident">
+            <statement>
+              <p> Use the addition formula for tangent: <me>
+                  \tan(x+y) = \frac{\tan x + \tan y}{1 - \tan x \tan y}
+                </me>
+                to prove that <me>
+                  \tan^{-1}\left(\frac{1}{2}\right) + \tan^{-1}\left(\frac{1}{3}\right) =
+                \frac{\pi}{4}
+                </me>
+              </p>
+              <aside>
+                <p> This is sometimes called <alert>Euler's Machin-like formula</alert>, and can be
+                  written in a pleasant form as: <me>
+                    \cot^{-1}(1) = \cot^{-1}(2) + \cot^{-1}(3)
+                  </me>
+                </p>
+              </aside>
+            </statement>
+
+            </task>
+          <task xml:id="mpl-2025-11-15-pi-powerseries">
+            <statement>
+              <p> Use part <xref ref="mpl-2025-11-15-pi-trigident" text="local" /> and the power
+                series for <m>\tan^{-1}(x)</m> derived in the text to find an infinite series
+                converging to <m>\pi</m>. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p> Evaluate the sum of the first three non-zero terms of the series found in part <xref ref="mpl-2025-11-15-pi-powerseries" text="local" /> to obtain an approximation for <m>
+                \pi</m>. Use the remainder estimate for alternating series to find an upper bound
+                for the error in this approximation. </p>
+              <aside>
+                <p> A related formula, known as <alert>Machin's formula</alert>, expresses <m>\pi</m>
+                  in terms of arctangents of smaller rational numbers: <me>
+                    \frac{\pi}{4} = 4 \tan^{-1}\left(\frac{1}{5}\right) -
+                  \tan^{-1}\left(\frac{1}{239}\right)
+                  </me>
+                  It converges more quickly than the formula derived in this problem. </p>
+              </aside>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="mpl-2025-11-15-derivs-of-arctan">
+          <statement>
+            <p> Let <m>f(x) = \tan^{-1}(3x)</m>. Use a Taylor series to find <m>f^{(2025)}(0)</m>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-Rogawski-11-7-51">
+          <statement>
+            <p>
+              Express <m>\int_0^1 e^{-x^3}\,dx</m> as the sum of a series.
+              Approximate its value to within an error of at most <m>10^{-4}</m>.
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-Rogawski-11-7-678">
+          <introduction>
+            <p>Let <me>f(x) = \frac{1}{(1-x)(1-2x)}</me></p>
+          </introduction>
+          <task xml:id="ex-Rogawski-11-7-67">
+            <statement>
+              <p>
+                Use the partial fraction decomposition to find the Maclaurin series for <m>f(x)</m>.
+              </p>
+            </statement>
+            </task>
+          <task xml:id="ex-Rogawski-11-7-68">
+            <statement>
+              <p>
+                  Find the Taylor series for <m>f(x)</m> centered at <m>a=2</m>.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Use the same partial fraction decomposition, and substitute <m> x = 2 + (x-2) </m>.
+              </p>
+            </hint>
+            </task>
+        </exercise>
+
+        <exercise xml:id="Rogawski-11-7-83">
+          <statement>
+            <p>
+              Use Taylor series to evaluate
+              <me> \lim_{x\to 0} \left(\frac{\sin x^2}{x^4} - \frac{\cos{x}}{x^2}\right)</me>. 
+              Compare this to the same limit evaluated using L'Hôpital's Rule.
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-Rogawski-11-7-84">
+          <statement>
+            <p>
+              In this exercise we will prove that the Maclaurin series for 
+              <m>f(x) = ln(1+x)</m> converges to <m>f(1)</m> at <m>x=1</m>.
+              This allows us to find the sum of the alternating harmonic series.
+            </p>
+          </statement>
+          <task>
+            <statement>
+              <p>
+                Show that for <em>all</em> <m>x\neq 1</m> and all
+                natural numbers <m>N</m> that:
+                <me>
+                  \frac{1}{1+x} = \sum_{n=0}^N(-1)^nx^n + \frac{(-1)^{N+1}x^{N+1}}{1+x}
+                </me>
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Integrate from <m>x=0</m> to <m>1</m> to obtain:
+                <me>
+                  \sum_{n=1}^{N+1} \frac{(-1)^{n+1}}{n} 
+                  = \ln 2 + (-1)^N \int_0^1 \frac{x^{N+1}}{1+x}\,dx
+                </me>
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Show that the integral on the right-hand side is smaller than
+                <m>\frac{1}{N+2}</m> in absolute value. 
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Conclude that the infinite series on the left-hand side converges to <m>\ln 2</m>:
+                <me>
+                  \sum_{n=1}^\infty \frac{(-1)^{n+1}}{n} = \ln 2.
+                </me>
+              </p>
+            </statement>
+            </task>          
+        </exercise>
+
+        <exercise xml:id="ex-Rogawski-11-7-91">
+          <title>
+            Irrationality of <m>e</m>
+          </title>
+          <introduction>
+            <p>
+              We will show that <m>e</m> is irrational using a proof by contradiction.
+              Suppose that <m> e=M/N</m>, where <m>M</m> and <m>N</m> are positive integers.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Show that <m>M!/e</m> is an integer.
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Use the Maclaurin series for <m>e^x</m> evaluated at <m>x=-1</m> 
+                to show that there exists an integer <m>B</m> such that
+                <me>
+                  \frac{M!}{e} = B + (-1)^{M+1}\left(\frac{1}{M+1} - \frac{1}{(M+1)(M+2)} + \cdots \right)
+                </me>
+              </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Use what you know about sums of alternating series with decreasing terms
+                to show that <m>\left|M!/e - B\right|</m> is an integer strictly between <m>0</m> and <m>1</m>.
+                Contradiction!
+              </p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-Rogawski-12-01-19">
+          <statement>
+            <p> Match the parametrizations with their plots. Explain your answers, and indicate the
+              direction of motion along each curve as <m>t</m> increases. <ol>
+                <li>
+                  <p>
+                    <m>x=\sin t</m>, <m>y=-t</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>x=t^2-9</m>, <m>y=8t-t^3</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>x=1-t</m>, <m>y=t^2-9</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>x=4t+2</m>, <m>y=5-3t</m>
+                  </p>
+                </li>
+              </ol>
+              <figure xml:id="ex-Rogawski-12-01-19-fig">
+                <caption>Four parametric curves</caption>
+                <sbsgroup widths="45% 45%">
+                  <sidebyside widths="45% 45%">
+                    <figure xml:id="ex-Rogawski-12-01-19-fig-a">
+                      <caption>Curve A</caption>
+                      <image>
+                        <ns2:prefigure label="ex-Rogawski-12-01-19-prefig-a">
+                          <ns2:diagram dimensions="(300,300)" margins="5">
+                            <ns2:definition>NyuViolet="#57068c"</ns2:definition>
+                            <ns2:definition>UltraViolet="#8900e1"</ns2:definition>
+                            <ns2:definition>MediumViolet1="#702b9d"</ns2:definition>
+                            <ns2:definition>MediumViolet2="#7b5aa6"</ns2:definition>
+                            <ns2:definition>LightViolet1="#ab82c5"</ns2:definition>
+                            <ns2:definition>LightViolet2="#eee6f3"</ns2:definition>
+                            <ns2:definition>f(t) = 4*t+2</ns2:definition>
+                            <ns2:definition>g(t) = 5-3*t</ns2:definition>
+                            <ns2:definition>c(t) = (f(t),g(t))</ns2:definition>
+                            <ns2:coordinates bbox="(-1,-1,10,10)">
+                              <ns2:axes xlabel="x" ylabel="y" />
+                              <ns2:parametric-curve function="c" domain="(-5,5)" stroke="UltraViolet" />
+                            </ns2:coordinates>
+                          </ns2:diagram>
+                        </ns2:prefigure>
+                      </image>
+                    </figure>
+                    <figure xml:id="ex-Rogawski-12-01-19-fig-b">
+                      <caption>Curve B</caption>
+                      <image>
+                        <ns2:prefigure label="ex-Rogawski-12-01-19-prefig-b">
+                          <ns2:diagram dimensions="(300,300)" margins="5">
+                            <ns2:definition>NyuViolet="#57068c"</ns2:definition>
+                            <ns2:definition>UltraViolet="#8900e1"</ns2:definition>
+                            <ns2:definition>MediumViolet1="#702b9d"</ns2:definition>
+                            <ns2:definition>MediumViolet2="#7b5aa6"</ns2:definition>
+                            <ns2:definition>LightViolet1="#ab82c5"</ns2:definition>
+                            <ns2:definition>LightViolet2="#eee6f3"</ns2:definition>
+                            <ns2:definition>f(t) = t^2-9</ns2:definition>
+                            <ns2:definition>g(t) = 8*t-t^3</ns2:definition>
+                            <ns2:definition>c(t) = (f(t),g(t))</ns2:definition>
+                            <ns2:coordinates bbox="(-10,-20,10,20)">
+                              <ns2:axes xlabel="x" ylabel="y" />
+                              <ns2:parametric-curve function="c" domain="(-5,5)" stroke="UltraViolet" />
+                            </ns2:coordinates>
+                          </ns2:diagram>
+                        </ns2:prefigure>
+                      </image>
+                    </figure>
+                  </sidebyside>
+                  <sidebyside widths="45% 45%">
+                    <figure xml:id="ex-Rogawski-12-01-19-fig-c">
+                      <caption>Curve C</caption>
+                      <image>
+                        <ns2:prefigure label="ex-Rogawski-12-01-19-prefig-c">
+                          <ns2:diagram dimensions="(300,300)" margins="5">
+                            <ns2:definition>NyuViolet="#57068c"</ns2:definition>
+                            <ns2:definition>UltraViolet="#8900e1"</ns2:definition>
+                            <ns2:definition>MediumViolet1="#702b9d"</ns2:definition>
+                            <ns2:definition>MediumViolet2="#7b5aa6"</ns2:definition>
+                            <ns2:definition>LightViolet1="#ab82c5"</ns2:definition>
+                            <ns2:definition>LightViolet2="#eee6f3"</ns2:definition>
+                            <ns2:definition>f(t) = 1-t</ns2:definition>
+                            <ns2:definition>g(t) = t^2-9</ns2:definition>
+                            <ns2:definition>c(t) = (f(t),g(t))</ns2:definition>
+                            <ns2:coordinates bbox="(-10,-20,10,20)">
+                              <ns2:axes xlabel="x" ylabel="y" />
+                              <ns2:parametric-curve function="c" domain="(-5,5)" stroke="UltraViolet" />
+                            </ns2:coordinates>
+                          </ns2:diagram>
+                        </ns2:prefigure>
+                      </image>
+                    </figure>
+                    <figure xml:id="ex-Rogawski-12-01-19-fig-d">
+                      <caption>Curve D</caption>
+                      <image>
+                        <ns2:prefigure label="ex-Rogawski-12-01-19-prefig-d">
+                          <ns2:diagram dimensions="(300,300)" margins="5">
+                            <ns2:definition>NyuViolet="#57068c"</ns2:definition>
+                            <ns2:definition>UltraViolet="#8900e1"</ns2:definition>
+                            <ns2:definition>MediumViolet1="#702b9d"</ns2:definition>
+                            <ns2:definition>MediumViolet2="#7b5aa6"</ns2:definition>
+                            <ns2:definition>LightViolet1="#ab82c5"</ns2:definition>
+                            <ns2:definition>LightViolet2="#eee6f3"</ns2:definition>
+                            <ns2:definition>f(t) = sin(t)</ns2:definition>
+                            <ns2:definition>g(t) = -t</ns2:definition>
+                            <ns2:definition>c(t) = (f(t),g(t))</ns2:definition>
+                            <ns2:coordinates bbox="(-1.5,-6.5,1.5,6.5)">
+                              <ns2:axes xlabel="x" ylabel="y" v-pi-format="yes" />
+                              <ns2:parametric-curve function="c" domain="(-2*pi,2*pi)" stroke="UltraViolet" />
+                            </ns2:coordinates>
+                          </ns2:diagram>
+                        </ns2:prefigure>
+                      </image>
+                    </figure>
+                  </sidebyside>
+                </sbsgroup>
+              </figure>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-Rogawski-12-01-3457">
+          <introduction>
+            <p>
+              Find parametric equations for the following curves.
+            </p>
+          </introduction>
+          <task xml:id="ex-Rogawski-12-01-34">
+            <statement>
+              <p>
+                The line segment joining <m>(-3,0)</m> and <m>(0,4)</m>
+              </p>
+            </statement>
+            </task>
+          <task xml:id="ex-Rogawski-12-01-35">
+            <statement>
+              <p>
+                The circle of radius 4 with center <m>(3,9)</m>
+              </p>
+            </statement>
+            </task>
+          <task xml:id="ex-Rogawski-12-01-37">
+            <statement>
+              <p>
+                The parabolic curve shown in <xref ref="ex-Rogawski-12-01-37-fig" />. 
+              </p>
+              <figure xml:id="ex-Rogawski-12-01-37-fig">
+                <image>
+                  <ns2:prefigure label="ex-Rogawski-12-01-37-prefig">
+                    <ns2:diagram dimensions="(300,300)" margins="5">
+                      <ns2:definition>UltraViolet="#8900e1"</ns2:definition>
+                      <ns2:definition>f(x) = (x+2)^2-4</ns2:definition>
+                      <ns2:coordinates bbox="(-6,-5,4,5)">
+                        <ns2:axes xlabel="x" ylabel="y" />
+                        <ns2:graph function="f" stroke="UltraViolet" />
+                        <ns2:point fill="UltraViolet" stroke="UltraViolet" size="2" p="(-2,-4)" alignment="sw"><ns2:m>(-2,-4)</ns2:m></ns2:point>
+                      </ns2:coordinates>
+                    </ns2:diagram>
+                  </ns2:prefigure>
+                </image>
+              </figure>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise xml:id="ex-Rogawski-12-01-64">
+          <statement>
+            <p>A <quantity><mag>10</mag><unit base="foot" /></quantity> ladder slides down a wall as its bottom B is pulled away from the wall (Figure <xref ref="ex-Rogawski-12-01-64-fig" />). 
+              Using the angle <m>\theta</m> as parameter, find the parametric equations for the path followed by:
+              <ol>
+                <li>the top of the ladder <m>A</m></li>
+                <li>the bottom of the ladder <m>B</m></li>
+                <li>the point <m>P</m> located <quantity><mag>4</mag><unit base="foot" /></quantity> from the top of the ladder</li>
+              </ol>
+              Show that <m>P</m> describes an ellipse.
+            </p>
+            <figure xml:id="ex-Rogawski-12-01-64-fig">
+              <image>
+                <ns2:prefigure label="ex-Rogawski-12-01-64-prefig">
+                  <ns2:diagram dimensions="(300,300)" margins="5">
+                    <ns2:definition>th = 0.8</ns2:definition>
+                    <ns2:definition>xP = 4*cos(th)</ns2:definition>
+                    <ns2:definition>yP = 6*sin(th)</ns2:definition>
+                    <ns2:definition>xB = 10*cos(th)</ns2:definition>
+                    <ns2:definition>yA = 10*sin(th)</ns2:definition>
+                    <ns2:definition>ellipse(t) = (4*cos(t),6*sin(t))</ns2:definition>
+                    <ns2:definition>NyuViolet="#57068c"</ns2:definition>
+                    <ns2:definition>UltraViolet="#8900e1"</ns2:definition>
+                    <ns2:definition>MediumViolet1="#702b9d"</ns2:definition>
+                    <ns2:definition>MediumViolet2="#7b5aa6"</ns2:definition>
+                    <ns2:definition>LightViolet1="#ab82c5"</ns2:definition>
+                    <ns2:definition>LightViolet2="#eee6f3"</ns2:definition>
+                    <ns2:definition>Magenta="#fb0f78"</ns2:definition>
+                    <ns2:definition>DarkGray="#404040"</ns2:definition>
+                    <ns2:definition>MediumGray2="#b8b8b8"</ns2:definition>
+                    <ns2:coordinates bbox="(-1,-1,10,10)">
+                      <ns2:axes xlabel="x" ylabel="y" decorations="no" />
+                      <ns2:parametric-curve function="ellipse" domain="(0,pi/2)" stroke="UltraViolet" />
+                      <ns2:polygon points="((0,yA),(xB,0))" closed="no" stroke="NyuViolet" />
+                      <ns2:polygon points="((xP,0),(xP,yP))" closed="no" stroke="MediumGray2" />
+                      <ns2:polygon points="((0,yP),(xP,yP))" closed="no" stroke="MediumGray2" />
+                      <ns2:point p="(0,yA)" stroke="NyuViolet" fill="NyuViolet" size="2" alignment="nw"><ns2:m>A</ns2:m></ns2:point>
+                      <ns2:point p="(xB,0)" stroke="NyuViolet" fill="NyuViolet" size="2" alignment="s"><ns2:m>B</ns2:m></ns2:point>
+                      <ns2:point p="(xP,yP)" stroke="NyuViolet" fill="NyuViolet" size="2"><ns2:m>P=(x,y)</ns2:m></ns2:point>
+                      <ns2:label anchor="(xP/2-0.2,(yP+yA)/2)" alignment="ne"><ns2:m>4</ns2:m></ns2:label>
+                      <ns2:label anchor="((xP+xB)/2,(yP)/2)" alignment="ne"><ns2:m>6</ns2:m></ns2:label>
+                      <ns2:angle-marker points="((0,yA),(xB,0),(xB-1,0))" thickness="1">
+                        <ns2:m>\theta</ns2:m>
+                      </ns2:angle-marker>
+                      <ns2:line p1="(xB,0.25)" p2="(xB+1,0.25)" stroke="Magenta" arrows="1" />
+                      <ns2:line p1="(-0.25,yA)" p2="(-0.25,yA-1)" stroke="Magenta" arrows="1" />
+                    </ns2:coordinates>
+                  </ns2:diagram>
+                </ns2:prefigure>
+              </image>
+            </figure>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-parametric-derivatives">
+          <statement>
+            <p> A curve is defined by the parametric equations <m>x(t) = t^2+1</m> and <m>y(t)=t^3-1</m>.
+              Find <m>\frac{dy}{dx}</m> and <m>\frac{d^2y}{dx^2}</m>, in terms of <m>t</m>, and also
+              at the point <m>(2,0)</m>. </p>
+          </statement>
+          </exercise>
+
+        <exercise xml:id="ex-parametric-arc-length">
+          <statement>
+            <p> Find the length of the curve given by the parametric equations <m>x=t^3</m> and <m>
+              y=t^2</m> for <m>0 \le t \le 1</m>. </p>
+          </statement>
+          </exercise>
+
+      <exercise xml:id="ex-Larson-10-03-84">
+        <introduction>
+          <p>
+            The <url href="https://en.wikipedia.org/wiki/Deltoid_curve"><em>deltoid curve</em></url>
+            is formed by a point on a circle of radius <m>a</m> as it rolls around the inside of a circle
+            of radius <m>3a</m>. It has parametric equations:
+            <md>
+              <mrow> x &amp;= 2a \cos t + a \cos 2t</mrow>
+              <mrow> y &amp;= 2a \sin t - a \sin 2t</mrow>
+            </md>
+            over the interval <m> 0\leq t \leq 2\pi</m>.
+            See <xref ref="ex-Larson-10-03-84-fig" />.
+          </p>
+            <figure xml:id="ex-Larson-10-03-84-fig">
+              <image>
+                <ns2:prefigure label="ex-Larson-10-03-84-prefig">
+                  <ns2:diagram dimensions="(300,300)" margins="5">
+                    <ns2:definition>NyuViolet="#57068c"</ns2:definition>
+                    <ns2:definition>UltraViolet="#8900e1"</ns2:definition>
+                    <ns2:definition>MediumViolet1="#702b9d"</ns2:definition>
+                    <ns2:definition>MediumViolet2="#7b5aa6"</ns2:definition>
+                    <ns2:definition>LightViolet1="#ab82c5"</ns2:definition>
+                    <ns2:definition>LightViolet2="#eee6f3"</ns2:definition>
+                    <ns2:definition>Magenta="#fb0f78"</ns2:definition>
+                    <ns2:definition>DarkGray="#404040"</ns2:definition>
+                    <ns2:definition>MediumGray2="#b8b8b8"</ns2:definition>
+                    <ns2:definition>a=1</ns2:definition>
+                    <ns2:definition>c(t) = (2*a*cos(t)+a*cos(2*t),2*a*sin(t)-a*sin(2*t))</ns2:definition>
+                    <ns2:coordinates bbox="(-4,-4,4,4)">
+                      <ns2:parametric-curve function="c" domain="(0,2*pi)" stroke="UltraViolet" fill="LightViolet1" arrows="1" arrow-location="0.85*2*pi" />
+                      <ns2:axes xlabel="x" ylabel="y" decorations="no" hticks="(a,a,3*a)" />
+                      <ns2:label anchor="(a,0)" alignment="s"><ns2:m>a</ns2:m></ns2:label>
+                    </ns2:coordinates>
+                  </ns2:diagram>
+                </ns2:prefigure>
+              </image>
+            </figure>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Show that the area enclosed by the deltoid curve is equal to
+              <me>
+                A = -2 \int_0^\pi y(t) x'(t) \,dt
+              </me>.
+            </p>
+          </statement>
+          </task>
+        <task>
+          <statement>
+            <p>
+              Evaluate the expression in (a) to find the area.
+            </p>
+          </statement>
+          </task>
+      </exercise>
+
+      <exercise xml:id="ex-polar-to-cartesian">
+        <statement>
+          <p>
+            Convert the polar equation <m>r=2\cos\theta</m> to a Cartesian equation.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-cartesian-to-polar">
+        <statement>
+          <p>
+            Convert the Cartesian equation <m>y=x^2</m> to a polar equation.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-Rogawski-12-01-53">
+        <introduction>
+          <p>
+            The curve with polar equation <m>r^2=\cos 2\theta</m> is called a <alert>lemniscate</alert> .
+          </p>
+
+          <image width="60%">
+            <ns2:prefigure label="ex-Rogawski-12-01-53-figure">
+            <ns2:diagram dimensions="(300,300)" margins="5">
+            <ns2:definition>
+NyuViolet="#57068c"
+            </ns2:definition>
+
+            <ns2:definition>
+UltraViolet="#8900e1"
+            </ns2:definition>
+
+            <ns2:definition>
+MediumViolet1="#702b9d"
+            </ns2:definition>
+
+            <ns2:definition>
+MediumViolet2="#7b5aa6"
+            </ns2:definition>
+
+            <ns2:definition>
+LightViolet1="#ab82c5"
+            </ns2:definition>
+
+            <ns2:definition>
+LightViolet2="#eee6f3"
+            </ns2:definition>
+
+            <ns2:definition>
+f(t) = sqrt(cos(2*t))
+            </ns2:definition>
+            <ns2:coordinates bbox="(-1.25,-1.25,1.25,1.25)">
+            <ns2:group>
+            <ns2:graph function="f" domain="(-pi/4,pi/4)" coordinates="polar" closed="yes" stroke="UltraViolet" />
+            <ns2:graph function="f" domain="(3*pi/4,5*pi/4)" coordinates="polar" closed="yes" stroke="UltraViolet" />
+            </ns2:group>
+            <ns2:grid-axes coordinates="polar" spacings="((0,0.5,1),(0,30,360))" xlabel="x" ylabel="y" spacing-degrees="yes" stroke="gray" />
+            </ns2:coordinates>
+            </ns2:diagram>
+            </ns2:prefigure>
+          </image>
+        </introduction>
+
+
+        <task>
+          <statement>
+            <p>
+              Use implicit differentiation to find <m>\frac{dr}{d\theta}</m> on the curve.
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Find all points on the lemniscate where the tangent line is horizontal.
+            </p>
+          </statement>
+
+          </task>
+      </exercise>
+
+      <exercise xml:id="ex-polar-area">
+        <statement>
+          <p>
+            Find the area enclosed by one loop of the four-leaved rose given by the polar equation <m>r=\sin(2\theta)</m>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-polar-arc-length">
+        <statement>
+          <p>
+            Find the length of the spiral <m>r=e^\theta</m> for <m>0 \le \theta \le \pi</m>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-polar-area-between-curves">
+        <statement>
+          <p>
+            Find the area of the region that lies inside the circle <m>r=3\cos\theta</m> and outside the cardioid <m>r=1+\cos\theta</m>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-polar-arc-length-2">
+        <statement>
+          <p>
+            Find the length of the cardioid <m>r=1+\cos\theta</m>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise xml:id="ex-Rogawski-12-02-10">
+        <statement>
+          <p>
+            In <xref ref="ex-Rogawski-12-01-53" /> we studied the lemniscate curve <m>r^2 = \cos(2\theta)</m>.
+            Find the area enclosed by one loop of the lemniscate.
+          </p>
+
+          <image width="60%">
+            <ns2:prefigure label="ex-Rogawski-12-02-10-figure">
+            <ns2:diagram dimensions="(300,300)" margins="5">
+            <ns2:definition>NyuViolet="#57068c"</ns2:definition>
+            <ns2:definition>UltraViolet="#8900e1"</ns2:definition>
+            <ns2:definition>MediumViolet1="#702b9d"</ns2:definition>
+            <ns2:definition>MediumViolet2="#7b5aa6"</ns2:definition>
+            <ns2:definition>LightViolet1="#ab82c5"</ns2:definition>
+            <ns2:definition>LightViolet2="#eee6f3"</ns2:definition>
+            <ns2:definition>f(t) = sqrt(cos(2*t))</ns2:definition>
+            <ns2:coordinates bbox="(-1.25,-1.25,1.25,1.25)">
+            <ns2:group>
+            <ns2:graph function="f" domain="(-pi/4,pi/4)" coordinates="polar" closed="yes" stroke="UltraViolet" fill="#ab82c5" />
+            <ns2:graph function="f" domain="(3*pi/4,5*pi/4)" coordinates="polar" closed="yes" stroke="UltraViolet" />
+            </ns2:group>
+            <ns2:grid-axes coordinates="polar" spacings="((0,0.5,1),(0,30,360))" xlabel="x" ylabel="y" spacing-degrees="yes" stroke="gray" />
+            </ns2:coordinates>
+            </ns2:diagram>
+            </ns2:prefigure>
+          </image>
+        </statement>
+
+        </exercise>
+
 </pretext>

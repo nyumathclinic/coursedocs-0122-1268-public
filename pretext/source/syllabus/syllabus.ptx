@@ -280,15 +280,17 @@
     <title>Grading</title>
     <p>
       Most of the grade components are identified above. Participation will be
-      measured through attendance, completion of in-class activities, and written homework.
+      measured through attendance and completion of in-class activities.
       The exact rubric may vary across lecture sections.
     </p>
     <p>
-      We will only count the top <em>half</em> of your quizzes and
+      We will only count the top <em>half</em> of your quizzes, problem sets and
       required WebAssignments, or as close to half as possible without going over if the total number is odd.
       This should wash out the effects of any unforeseen circumstances which prevent you from
       attending recitation or completing an assignment to the best of your
-      ability. <em>There will be no other extensions or makeups beyond this generous drop policy</em>.
+      ability. 
+      For students who join the class late, the number of dropped assignments will be adjusted to reflect the number of assignments that were available to them.
+      <em>There will be no other extensions or makeups beyond this generous drop policy</em>.
     </p>
     <p>
       The grade components are averaged into a final calculated grade using the following weights:
@@ -303,8 +305,12 @@
         <cell>5%</cell>
       </row>
       <row>
+        <cell>Problem Sets</cell>
+        <cell>4%</cell>
+      </row>
+      <row>
         <cell>WebAssignments</cell>
-        <cell>5%</cell>
+        <cell>3%</cell>
       </row>
       <row>
         <cell>Chapter 6 Test</cell>
@@ -324,7 +330,7 @@
       </row>
       <row>
         <cell>Participation</cell>
-        <cell>5%</cell>
+        <cell>3%</cell>
       </row>
     </tabular>
     <p>
@@ -388,7 +394,7 @@
     <p>
       In large lecture classes, there is only a limited amount of time for
       direct instruction by the professor. Therefore, it is important that you
-      take advantage of other resources available to you. This includes your
+      take advantage of other resources available to you. This includes
       office hours, recitation, discussion boards, and study groups with
       classmates. The University also provides a few options for extra help:
       <ul>
@@ -450,7 +456,7 @@
         when required in compliance with their religious obligations. You must
         notify your professor in advance of religious holidays or observances
         that might coincide with exams, assignments, or class times to schedule
-        mutually acceptable alternatives. Students may also contact
+        mutually acceptable alternatives. You may also contact
         <url href="mailto:religiousaccommodations@nyu.edu">religiousaccommodations@nyu.edu</url> for assistance.
       </p>
     </subsection>
@@ -534,9 +540,9 @@
       <p>
         If a student submits work that is not their own, with the intention to
         deceive the instructor, then the instructor has no way to evaluate the
-        student’s learning.  This usually results in a score of zero, at a
+        student&apos;s learning.  This usually results in a score of zero, at a
         minimum.  Additionally, any such findings will be reported to the
-        applicable dean in the student’s school, for recordkeeping and possible
+        applicable dean in the student&apos;s school, for recordkeeping and possible
         further disciplinary action.
       </p>
       <p>
