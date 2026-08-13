@@ -279,9 +279,10 @@
   <section xml:id="sec-grading">
     <title>Grading</title>
     <p>
-      Most of the grade components are identified above. Participation will be
+      Most of the grade components are identified above. 
+      Some lecture sections may include participation as well.
+      Where applicable, participation will be
       measured through attendance and completion of in-class activities.
-      The exact rubric may vary across lecture sections.
     </p>
     <p>
       We will only count the top <em>half</em> of your quizzes, problem sets and
@@ -306,11 +307,11 @@
       </row>
       <row>
         <cell>Problem Sets</cell>
-        <cell>4%</cell>
+        <cell>4–5%</cell>
       </row>
       <row>
         <cell>WebAssignments</cell>
-        <cell>3%</cell>
+        <cell>3–5%</cell>
       </row>
       <row>
         <cell>Chapter 6 Test</cell>
@@ -329,8 +330,8 @@
         <cell>25%</cell>
       </row>
       <row>
-        <cell>Participation</cell>
-        <cell>3%</cell>
+        <cell>Participation (where applicable)</cell>
+        <cell>0-3%</cell>
       </row>
     </tabular>
     <p>
@@ -461,7 +462,7 @@
       </p>
     </subsection>
     <subsection xml:id="subsec-dei">
-      <title>Diversity, Equity, and Inclusion</title>
+      <title>Inclusive Environment</title>
       <p>
         As instructors, we will strive to create a safe, respectful, and
         inclusive environment for all students regardless of their identity. We
@@ -538,6 +539,7 @@
         This list should not be considered exhaustive. 
       </p>
       <p>
+        Instructors may verify the authenticity of submitted work through oral questioning, written follow-up, or other means.
         If a student submits work that is not their own, with the intention to
         deceive the instructor, then the instructor has no way to evaluate the
         student&apos;s learning.  This usually results in a score of zero, at a
