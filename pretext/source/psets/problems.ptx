@@ -2103,4 +2103,90 @@ f(t) = sqrt(cos(2*t))
 
         </exercise>
 
+  <exercise xml:id="ex-riemann-sum-limit-to-integral">
+    <provenance>
+      <dc:creator>Claude</dc:creator>
+      <ns1:created>2026-08-22</ns1:created>
+    </provenance>
+    <statement>
+      <p>
+        The limit
+        <me>
+          \lim_{n \to \infty} \sum_{i=1}^n \left(1 + \frac{3i}{n}\right)\frac{3}{n}
+        </me>
+        is a right Riemann sum for a definite integral <m>\int_a^b f(x)\,dx</m> of some function <m>f</m> over some interval <m>[a,b]</m>.
+      </p>
+    </statement>
+
+    <task>
+      <statement>
+        <p>
+          Identify <m>a</m>, <m>b</m>, and <m>f(x)</m>, and write the corresponding definite integral.
+        </p>
+      </statement>
+
+      </task>
+
+    <task>
+      <statement>
+        <p>
+          Evaluate the integral using the Fundamental Theorem of Calculus.
+        </p>
+      </statement>
+
+      </task>
+  </exercise>
+
+  <exercise xml:id="ex-improper-integral-xe-to-the-minus-x">
+    <provenance>
+      <dc:creator>Claude</dc:creator>
+      <ns1:created>2026-08-22</ns1:created>
+    </provenance>
+    <statement>
+      <p>
+        Determine if the integral <m>\displaystyle\int_1^\infty x e^{-x}\,dx</m> converges or diverges. If it converges, find its value.
+      </p>
+    </statement>
+
+    </exercise>
+
+  <exercise xml:id="ex-area-parabola-and-line">
+    <provenance>
+      <dc:creator>Claude</dc:creator>
+      <ns1:created>2026-08-22</ns1:created>
+    </provenance>
+    <statement>
+      <p>
+        Find the area of the region bounded by the curves <m>y = x^2</m> and <m>y = x + 2</m>.
+      </p>
+    </statement>
+
+    </exercise>
+
+  <exercise xml:id="ex-area-sine-cosine">
+    <provenance>
+      <dc:creator>Claude</dc:creator>
+      <ns1:created>2026-08-22</ns1:created>
+    </provenance>
+    <statement>
+      <p>
+        Find the area of the region bounded by <m>y = \sin x</m>, <m>y = \cos x</m>, <m>x=0</m>, and <m>x=\frac{\pi}{2}</m>.
+      </p>
+    </statement>
+
+    </exercise>
+
+  <exercise xml:id="ex-area-cubic-y-axis">
+    <provenance>
+      <dc:creator>Claude</dc:creator>
+      <ns1:created>2026-08-22</ns1:created>
+    </provenance>
+    <statement>
+      <p>
+        Find the total area enclosed between the curve <m>x = y^3 - y</m> and the <m>y</m>-axis.
+      </p>
+    </statement>
+
+    </exercise>
+
 </pretext>

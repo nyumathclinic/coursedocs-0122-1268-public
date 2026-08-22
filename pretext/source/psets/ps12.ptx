@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
-  <xi:include href="../docinfo.ptx" />
-  <article>
-    <section xml:id="ps12-section">
-      <title>Problem Set 12</title>
-      <subtitle>Power Series</subtitle>
-      <xi:include href="ps01-tr.ptx" xpointer="xpointer(//section[1]/introduction)" />
-      <exercises>
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-6-3'])" />
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-6-78'])" />
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-power-series-convergence-revised'])" />
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='mpl-2025-11-1-hypergeometric'])" />
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-6-53'])" />
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='mpl-2025-11-15-pi'])" />
-      </exercises>
-    </section>
-  </article>
+    <xi:include href="../docinfo.ptx" />
+    <article xml:id="art-ps12">
+        <section xml:id="sec-ps12">
+            <title>Problem Set 12</title>
+            <subtitle>Taylor Series</subtitle>
+            <xi:include href="pset-intro.ptx" xpointer="xpointer(//section[1]/introduction)" />
+            <exercises xml:id="exs-ps12">
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='mpl-2025-11-15-derivs-of-arctan'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-7-51'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-7-678'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='Rogawski-11-7-83'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-7-84'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-7-91'])" />
+            </exercises>
+        </section>
+    </article>
 </pretext>

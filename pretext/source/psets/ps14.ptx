@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
-  <xi:include href="../docinfo.ptx" />
-  <article>
-    <section xml:id="ps14-section">
-      <title>Problem Set 14</title>
-      <subtitle>Parametric Curves</subtitle>
-      <xi:include href="ps01-mw.ptx" xpointer="xpointer(//section[1]/introduction)" />
-
-
-      <exercises>
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-12-01-19'])" />
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-12-01-3457'])" />
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-12-01-64'])" />
-
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-parametric-derivatives'])" />
-
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-parametric-arc-length'])" />
-
-      <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Larson-10-03-84'])" />
-
-      </exercises>
-    </section>
-  </article>
+    <xi:include href="../docinfo.ptx" />
+    <article xml:id="art-ps14">
+        <section xml:id="sec-ps14">
+            <title>Problem Set 14</title>
+            <subtitle>Polar Coordinates (Practice, Not Collected)</subtitle>
+            <xi:include href="pset-intro.ptx" xpointer="xpointer(//section[1]/introduction)" />
+            <exercises xml:id="exs-ps14">
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-polar-to-cartesian'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-cartesian-to-polar'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-12-01-53'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-polar-area'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-polar-arc-length'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-polar-area-between-curves'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-polar-arc-length-2'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-12-02-10'])" />
+            </exercises>
+        </section>
+    </article>
 </pretext>

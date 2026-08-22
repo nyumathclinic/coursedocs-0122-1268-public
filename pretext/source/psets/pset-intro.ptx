@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<pretext xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xi="http://www.w3.org/2001/XInclude">
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
   <article>
     <title></title>
 
-    <section xml:id="sec-ps01-mw">
-      <title>Problem Set 1 (MW sections)</title>
-      <subtitle>Riemann Sums and the Fundamental Theorem of Calculus</subtitle>
+    <section xml:id="sec-pset-intro">
+      <title></title>
 
       <introduction>
         <p>
@@ -39,14 +38,6 @@
           Make sure each page is in the proper orientation.
         </p>
       </introduction>
-
-      <exercises xml:id="exs-ps01">
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='umich_2024-02-12_0116_4'])" />
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='exercise-area-approximation'])" />
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='p-5'])" />
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='p-2'])" />
-        <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='p-4'])" />
-      </exercises>
     </section>
   </article>
 </pretext>

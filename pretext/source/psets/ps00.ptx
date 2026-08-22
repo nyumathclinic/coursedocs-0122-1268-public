@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+    <ns0:include href="../docinfo.ptx" />
+    <article xml:id="art-ps00">
+        <section xml:id="sec-ps00">
+            <title>Problem Set 0</title>
+            <subtitle>Gradescope Practice</subtitle>
+
+            <introduction>
+                <p>
+                    This assignment is designed to help you practice submitting your work on Gradescope and correctly matching each problem to the location of your solution in the PDF.
+                    Matching does not mean you must put one problem on a separate sheet — instead, it means that after you upload your work, you will use Gradescope's interface to indicate which page(s) contain your solution to each problem.
+                    By the end of this assignment, you should be comfortable with the submission process and confident that your work is properly organized for grading.
+                </p>
+
+                <p>
+                    Solve each exercise below on its own page (or separate sheet if using paper), and clearly label each page with the problem number.
+                    Then scan or photograph your work — make sure each image is clear, in the correct orientation, and that the problem number is visible — and upload a single PDF to Gradescope.
+                </p>
+
+                <p>
+                    Uploading is not the last step.
+                    Once your file is uploaded, Gradescope will prompt you to match each page to the corresponding problem number.
+                    <term>This matching step is crucial</term>: double-check your selections, since unmatched or mismatched pages will result in a penalty on future assignments.
+                    You can resubmit your work as many times as you like before the deadline, so use that to your advantage if you're unsure.
+                </p>
+
+                <p>
+                    This is a practice assignment and it will not be graded.
+                    The problems themselves are intentionally easy — the point is to get comfortable with the Gradescope workflow before it matters for a graded problem set.
+                </p>
+            </introduction>
+
+            <exercises xml:id="exs-ps00">
+                <exercise xml:id="ex-ps00-verify-critical-point">
+                    <statement>
+                        <p>
+                            Let <m>f(x) = x^3 - 6x^2 + 9x + 1</m>.
+                            Verify that <m>x = 3</m> is a critical point of <m>f</m>.
+                        </p>
+                    </statement>
+
+                    </exercise>
+
+                <exercise xml:id="ex-ps00-quick-evaluations">
+                    <introduction>
+                        <p>
+                            Evaluate each of the following.
+                        </p>
+                    </introduction>
+
+                    <task>
+                        <statement>
+                            <p>
+                                <m>\displaystyle \frac{d}{dx}\left[x^4\right]</m> at <m>x=2</m>.
+                            </p>
+                        </statement>
+                        </task>
+
+                    <task>
+                        <statement>
+                            <p>
+                                <m>\displaystyle \int_0^2 5 \, dx</m>.
+                            </p>
+                        </statement>
+                        </task>
+
+                    <task>
+                        <statement>
+                            <p>
+                                <m>\displaystyle \lim_{x \to 0} \frac{\sin x}{x}</m>.
+                            </p>
+                        </statement>
+                        </task>
+                </exercise>
+
+                <exercise xml:id="ex-ps00-sketch-parabola">
+                    <statement>
+                        <p>
+                            Sketch the graph of <m>y = x^2</m> on the interval <m>[-2, 2]</m>.
+                            Label the vertex and the two endpoints of the graph with their coordinates.
+                        </p>
+                    </statement>
+
+                    </exercise>
+            </exercises>
+        </section>
+    </article>
+</pretext>
