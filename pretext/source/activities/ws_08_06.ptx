@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-power-series-representations">
+      <title>Worksheet for Section 8.6</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p> Given a function and a point inside its domain, find a power series which converges
+              to the given function on an open interval centered at the given point. This is called
+              briefly a <alert>power series
+                representation</alert> of the function at the point. </p>
+          </li>
+
+          <li>
+            <p>
+              Integrate and differentiate power series.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Find a power series representation for <m>f(x) = \dfrac{1}{1+x^2}</m> near <m>0</m>. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Find a power series representation for <m>f(x) = \arctan(x)</m>. Hint: What is its
+              derivative? </p>
+          </statement>
+
+          </exercise>
+
+      </page>
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Use a power series to approximate <m>\int_{0}^{0.2} \dfrac{1}{1+x^5}\,dx</m> with an
+              error less than <m>10^{-7}</m>. </p>
+          </statement>
+
+          </exercise>
+
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Consider the function defined by the power series <m>f(x) = \sum_{n=0}^\infty
+              \dfrac{x^n}{n!}</m>. Find the power series representation for <m>f'(x)</m>. Write it in
+              the form <m>\sum_{n=0}^\infty c_nx^n</m>. </p>
+          </statement>
+
+          </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

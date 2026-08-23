@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="../docinfo.ptx" />
+  <article xml:id="sec-activities">
+    <title>Activities</title>
+    <xi:include href="../frontmatter.ptx" />
+
+    <introduction>
+      <p>
+        This document collects all of the worksheets for the semester, in order.
+      </p>
+    </introduction>
+    <xi:include href="./ws_05_01.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_05_05.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_06_01.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_06_02a.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_06_02b.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_06_03.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_06_04b.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_06_05.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_06_06.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_07_01.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_07_02.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_07_03.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_07_04.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_07_07.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_08_01.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_08_02.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_08_03.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_08_04a.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_08_04b.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_08_05.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_08_06.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_08_07.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_09_01.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_09_02.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_09_03.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_09_04.ptx" xpointer="xpointer(//worksheet[1])"/>
+  </article>
+</pretext>

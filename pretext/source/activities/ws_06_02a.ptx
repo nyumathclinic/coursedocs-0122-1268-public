@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext>
+  <article xml:id="article">
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-trigint">
+      <title>Worksheet for Section 6.2: Trigonometric Integrals</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Evaluate integrals of functions involving powers of sine and cosine.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Evaluate integrals of functions involving powers of secant and tangent.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <introduction>
+          <p>
+            Evaluate the integrals.
+            In the case of a definite integral, your answer should be a number.
+            For indefinite integrals, your answer should be the most general antiderivative (this means don’t forget <m>+C</m>).
+          </p>
+        </introduction>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int \sin(x) \cos^2(x) \,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int_0^{\pi/2} \sin^2(x) \cos^3(x) \,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int \sin^4(x)\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+      </page>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int \sec^4(x)\tan^3(x)\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int \sec^4(x)\tan^2(x)\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int \sec^3(x)\tan(x)\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

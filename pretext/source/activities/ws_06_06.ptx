@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article xml:id="article">
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-impint">
+      <title>Worksheet for Section 6.6</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Use the definition of convergence to determine whether an improper integral converges.
+            </p>
+          </li>
+          <li>
+            <p> Use the <m>p</m>-test to determine whether an improper integral converges. </p>
+          </li>
+          <li>
+            <p>
+              Use the comparison test to decide whether an improper integral converges.
+            </p>
+          </li>
+          <li>
+            <p>
+              Estimate the error in approximating a definite integral.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+      <exercisegroup>
+        <title>Evaluating improper integrals</title>
+
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_1^\infty \frac{dx}{x^{1.001}}</m>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_1^\infty\frac{\ln x}{x}\,dx</m>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_2^\infty\frac{2\,dx}{x^2 - 1}</m>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_0^4 \frac{dx}{\sqrt{4-x}}</m>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_0^{\pi/2} \sec \theta\,d\theta</m>
+            </p>
+          </statement>
+          </exercise>
+
+      </exercisegroup>
+
+      <exercisegroup>
+        <title>Testing for convergence</title>
+        <introduction>
+          <p>
+            You can either try to evaluate the integral directly or use the comparison test.
+          </p>
+        </introduction>
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_1^\infty \frac{1}{2x^2 + 3x+ 4} \,dx</m>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_0^{\pi/2} \cot \theta\,d\theta</m>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_3^\infty \frac{1}{\sqrt{x^2-3}}\,dx</m>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="2in">
+          <statement>
+            <p>
+              <m>\displaystyle\int_0^\pi \frac{\sin \theta\,d\theta}{\sqrt{\pi - \theta}}</m>
+            </p>
+          </statement>
+          </exercise>
+      </exercisegroup>
+
+
+    </worksheet>
+  </article>
+</pretext>

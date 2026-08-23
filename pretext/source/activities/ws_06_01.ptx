@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext>
+  <article xml:id="article">
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-ibp">
+      <title>Worksheet for Section 6.1</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Use integration by parts to find the antiderivative of a product of functions.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use integration by parts to evaluate definite integrals.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercisegroup>
+        <title>The basics</title>
+
+        <introduction>
+          <p>
+            Evaluate the integrals, integrating by parts.
+            In the case of a definite integral, your answer should be a number.
+            For indefinite integrals, your answer should be the most general antiderivative (this means don’t forget <m>+C</m>).
+          </p>
+
+          <p>
+            Think about your choices of <m>u</m> and <m>dv</m>.
+            Why did you decide the way you did?
+          </p>
+        </introduction>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int x\sin 2x \,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int t^2 \cos t\,dt</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int_1^2 x \ln x\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+        </exercisegroup>
+      </page>
+
+
+      <page>
+        <exercise workspace="1in">
+          <title>Dirty Tricks, part I</title>
+
+          <introduction>
+            <p>
+              We will use integration by parts twice to find <m>\int e^{-2x}\sin 3x\,dx</m>.
+            </p>
+          </introduction>
+
+
+          <task>
+            <statement>
+              <p>
+                First use <m>u = \sin 3x</m>, <m>dv = e^{-2x}\,dx</m>.
+                The result should contain another integral suitable for integration by parts.
+              </p>
+            </statement>
+
+            </task>
+
+
+          <task>
+            <statement>
+              <p>
+                Find the remaining integral by parts using <m>dv = \cos 3x\,dx</m> (or some constant multiple of <m>\cos 3x</m>).
+                What happens?
+              </p>
+            </statement>
+
+            </task>
+
+
+          <task>
+            <statement>
+              <p>
+                Try the same thing now with <m>u = \cos 3x</m>.
+                What happens now?
+              </p>
+            </statement>
+
+            </task>
+        </exercise>
+      </page>
+
+
+      <page>
+        <exercisegroup>
+        <title>Combining Techniques</title>
+
+        <introduction>
+          <p>
+            Try a substitution which transforms the integral into one suitable for parts.
+          </p>
+        </introduction>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int e^{\sqrt{3x+9}}\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int\sin(\ln x)\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              Use a trigonometric identity, then integrate by parts: <m>\int_0^{\pi/3} x\tan^2 x\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+        </exercisegroup>
+      </page>
+
+
+      <page>
+        <exercisegroup>
+        <title>Dirty tricks, part II</title>
+
+        <introduction>
+          <p>
+            Use integration by parts with <m>dv = dx</m> to find the antiderivatives.
+          </p>
+        </introduction>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int\arctan x\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int\operatorname{arcsec} x\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+        </exercisegroup>
+      </page>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              Prove the reduction formula
+              <md>
+                \int \cos^nx\,dx = \frac{1}{n} \cos^{n-1}x \sin x + \frac{n-1}{n}\int\cos^{n-2}x\,dx.
+              </md>
+            </p>
+          </statement>
+
+          <hint>
+            <p>
+              You are going to integrate <em>something</em> by parts.
+              How can you break up <m>\cos^n x\,dx</m> into <m>u \,dv</m> that makes <m>dv</m> easily to integrate?
+            </p>
+          </hint>
+        </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

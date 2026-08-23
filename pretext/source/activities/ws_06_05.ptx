@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article xml:id="article">
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-approxint">
+      <title>Worksheet for Section 6.5</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Approximate definite integrals using the midpoint rule.
+            </p>
+          </li>
+          <li>
+            <p>
+              Approximate definite integrals using the trapezoidal rule.
+            </p>
+          </li>
+          <li>
+            <p>
+              Approximate definite integrals using Simpson's rule.
+            </p>
+          </li>
+          <li>
+            <p>
+              Estimate the error in approximating a definite integral.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        
+        <exercise xml:id="ex-approxint-ln2">
+          <introduction>
+            <p> In this exercise we will make several estimates of <md>
+                \ln 2 = \int_1^2 \frac{1}{x} \,dx.
+              </md>
+            </p>
+          </introduction>
+          <task workspace="1in">
+            <statement>
+              <p>Estimate <m>\ln 2</m> with the Trapezoidal Rule and <m>n=8</m> subdivisions.</p>
+            </statement>
+            </task>
+          <task workspace="1in">
+            <statement>
+              <p>Estimate <m>\ln 2</m> with the Midpoint Rule and <m>n=8</m>.</p>
+            </statement>
+            </task>
+          <task workspace="1in">
+            <statement>
+              <p>Estimate <m>\ln 2</m> with Simpson’s rule and <m>n=4</m>.</p>
+            </statement>
+            </task>
+          <task workspace="1in">
+            <statement>
+              <p> Estimate <m>\ln 2</m> with Simpson’s rule and <m>n=8</m>. </p>
+            </statement>
+            </task>
+          <conclusion>
+            <p>
+              Compare your answers with a calculator result and note the accuracy.
+            </p>
+          </conclusion>
+        </exercise>
+      </page>
+      <page>
+        <exercise xml:id="ex-approxint-ln2-estimates">
+          <introduction>
+            <p>
+              Of course, the calculator's answer is only an estimate too.
+              The error bound results in the text tell us truly how close
+              our estimates are.
+            </p>
+          </introduction>
+          <task workspace="2in">
+            <statement>
+              <p>Estimate the maximum error in our approximation of <m>\ln 2</m> with the Midpoint
+                Rule and <m>n=4</m>.</p>
+            </statement>
+            </task>
+          <task workspace="2in">
+            <statement>
+              <p> How many divisions would we need to get <m>\ln
+                  2</m> correct within <m>10^{-10}</m> using the Midpoint Rule? </p>
+            </statement>
+            </task>
+          <task workspace="2in">
+            <statement>
+              <p> How many divisions would we need to get <m>\ln 2</m> correct to within <m>
+                  10^{-10}</m> using Simpson’s Rule? </p>
+            </statement>
+            </task>
+        </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

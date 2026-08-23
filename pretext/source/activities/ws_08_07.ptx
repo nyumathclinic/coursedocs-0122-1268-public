@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-taylor-series">
+      <title>Worksheet for Section 8.7</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Compute the Taylor series of a function at a point.
+
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Compute derivatives at a point using a Taylor series.
+
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Derive the Maclaurin series for <m>\sin x</m>. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <task>
+            <statement>
+              <p> Find the Maclaurin series for <m>\int e^{-x^2}\,dx</m>. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p> Approximate <m>\int_0^1 e^{-x^2}\,dx</m> with an error of less than <m>0.001</m>. </p>
+            </statement>
+            </task>
+        </exercise>
+      </page>
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Find the first three nonzero terms in the Maclaurin series for <m>e^x \arctan(x)</m>
+              and <m>\dfrac{x}{\sin x}</m>. </p>
+
+          </statement>
+
+          </exercise>
+        <exercise workspace="1in">
+          <statement>
+            <p> Suppose <m>f</m> and <m>g</m> have convergent power series centered at <m>a</m>.
+              Derive the product rule: <m>(fg)'(a) = f(a)g'(a) + f'(a) g'(a)</m>. </p>
+          </statement>
+
+          </exercise>
+
+      </page>
+    </worksheet>
+  </article>
+</pretext>

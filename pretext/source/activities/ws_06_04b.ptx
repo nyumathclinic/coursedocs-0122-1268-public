@@ -1,0 +1,577 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-intstrat">
+      <title>Strategies and Practice for Integration</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Choose appropriate strategies for integration.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Evaluate indefinite and definite integrals.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+      <introduction>
+        <title>Summary of integration techniques</title>
+
+
+        <p>
+          <ol>
+            <li>
+              <p>
+                Simplify the integrand if possible, and use procedural rules to break down the
+                integral (distribute across sums, pull out constants, etc.)
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Use the basic formulas like Formulas 1–20 in your table of integrals on reference
+                page 6 (back pages). These are worth memorizing.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Make any substitution that will transform the integral into a simpler one.
+              </p>
+            </li>
+
+            <li>
+              <p> Classify the integrand by <q>form</q>: </p>
+
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      Integration by parts.
+                    </p>
+
+                    <p>
+                      <ol>
+                        <li>
+                          <p> Polynomials are a good choice of <m>u</m> because they get simpler
+                            when differentiating. </p>
+                        </li>
+
+                        <li>
+                          <p> Inverse functions like <m>\ln</m>, <m>\arcsin</m>, <m>\arctan</m> are
+                            also a good choice of <m>u</m> because they get simpler when
+                            differentiating. </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            Remember also that the product of an exponential and a sine or cosine
+                            can be integrated by parts twice.
+                          </p>
+                        </li>
+
+                      </ol>
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      Trigonometric forms:
+                    </p>
+
+                    <p>
+                      <ol>
+                        <li>
+                          <p>
+                            <m>\int \sin^m x \cos^n x \,dx</m>: </p>
+
+                          <p>
+                            <ul>
+                              <li>
+                                <p> If <m>m</m> is odd, save <m>\sin x\,dx</m> and let <m>u=\cos x</m>
+                                  .
+														</p>
+                              </li>
+
+                              <li>
+                                <p> If <m>n</m> is odd, save <m>\cos x\,dx</m> and let <m>u=\sin x</m>
+                                  .
+														</p>
+                              </li>
+
+                              <li>
+                                <p> If <m>m</m> and <m>n</m> are even, use half-angle identities to
+                                  write in terms of <m>\cos 2x</m> and repeat. </p>
+                              </li>
+
+                            </ul>
+                          </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            <m>\int \tan^m x \sec^n x \,dx</m>: </p>
+
+                          <p>
+                            <ul>
+                              <li>
+                                <p> If <m>m</m> is odd, save <m>\sec x\tan x\,dx</m> and let <m>u=\sec
+                                  x</m>. </p>
+                              </li>
+
+                              <li>
+                                <p> If <m>n</m> is even, save <m>\sec^2 x\,dx</m> and let <m>u=\tan
+                                  x</m>. </p>
+                              </li>
+
+                              <li>
+                                <p> If <m>m</m> is even and <m>n</m> is odd, use the identity <m>1 +
+                                  \tan^2 x = \sec^2x</m> to write the integrand in terms of odd
+                                  powers of secant. Then use the reduction formula (Formula 77 on
+                                  reference page 9). </p>
+                              </li>
+
+                            </ul>
+                          </p>
+                        </li>
+
+                      </ol>
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      Radical forms: try a trigonometric substitution.
+                    </p>
+
+                    <p>
+                      <ol>
+                        <li>
+                          <p> Form <m>\sqrt{a^2 - x^2}</m>: let <m>x=a \sin \theta</m>, so <m>dx = a
+                            \cos\theta\,d\theta</m> and <m>\sqrt{a^2-x^2} = a \cos \theta</m>. </p>
+                        </li>
+
+                        <li>
+                          <p> Form <m>\sqrt{a^2 + x^2}</m>: let <m>x=a \tan \theta</m>, so <m>dx = a
+                            \sec^2\theta\,d\theta</m> and <m>\sqrt{a^2+x^2} = a \sec \theta</m>. </p>
+                        </li>
+
+                        <li>
+                          <p> Form <m>\sqrt{x^2-a^2}</m>: let <m>x=a \sec \theta</m>, so <m>dx = a
+                            \sec\theta\tan\theta\,d\theta</m> and <m>\sqrt{x^2-a^2} = a \tan \theta</m>
+                            .
+											</p>
+                        </li>
+
+                      </ol>
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      Rational forms: try partial fraction decomposition after factoring the
+                      denominator.
+                    </p>
+
+                    <p>
+                      <ol>
+                        <li>
+                          <p> For each power of linear factor <m>(x-a)^r</m> of the denominator, the
+                            partial fraction decomposition contains terms of the form <md>\frac{A_1}{x-a}
+                            + \frac{A_2}{(x-a)^2} + \dots + \frac{A_r}{(x-a)^r}</md> (This includes
+                            the case <m>r=1</m> where there is just a single factor of <m>x-a</m> in
+                            the denominator of the original function and a single summand <m>A/(x-a)</m>
+                            .)
+											</p>
+                        </li>
+
+                        <li>
+                          <p> For each power of an irreducible quadratic factor of the form <m>(x^2
+                            + bx+c)^r</m>, the partial fraction decomposition contains terms of the
+                            form <md>\frac{B_1x+C_1}{x^2 + bx+c} + \frac{B_2x + C_2}{(x^2 + bx+c)^2}
+                            + \dots + \frac{B_rx + C_r}{(x^2 + bx+c)^r}</md> (Again, if <m>r=1</m>
+                            there is only one summand.) </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            As a check, remember the number of unknowns must be equal to the degree
+                            of the denominator to guarantee a unique solution.
+                          </p>
+                        </li>
+
+                      </ol>
+                    </p>
+                  </li>
+
+                </ol>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Still stuck? Try some of these.
+              </p>
+
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      Manipulate the integrand:
+                    </p>
+
+                    <p>
+                      <ul>
+                        <li>
+                          <p> Multiply by <m>1</m> with some clever choice of numerator and
+                            denominator </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            Rationalize the numerator.
+                          </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            Rationalize the denominator.
+                          </p>
+                        </li>
+
+                      </ul>
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      Relate the problem to a previously worked one.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      Pick something and substitute that.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      Consult a table of integrals or computer software.
+                    </p>
+                  </li>
+
+                </ol>
+              </p>
+            </li>
+
+          </ol>
+        </p>
+      </introduction>
+
+
+      <page>
+        
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int\frac{2x-1}{(x-x^2)}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Use a partial fraction decomposition <md>\frac{2x-1}{x-x^2} = \frac{A}{x} +
+              \frac{B}{x-1}</md>
+            </p>
+          </hint>
+          </exercise>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int x \sec 2x^2 \,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>u=2x^2</m> and <m>du = 4x\,dx</m>. The integral becomes <m>\frac{1}{4}\int
+              \sec u\,du</m>. </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int e^x \cot e^x \,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>u=e^x</m> and <m>du = e^x\,dx</m>. The integral becomes <m>\int \cot
+              u\,du</m>. </p>
+          </hint>
+        </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{\tan(\ln x)}{x}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>u = \ln x</m> and <m>du = \frac{1}{x}\,dx</m>. The integral becomes <m>\int
+              \tan u \,du</m>. </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{3 + 2 \sin t}{\cos t} \,dt</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Break it up: <md>\begin{split}
+                \int \frac{3 + 2 \sin t}{\cos t} \,dt
+                &amp;= \int\left(\frac{3}{\Cos{t}} + \frac{2 \Sin{t}}{\Cos{t}}\right)\,dt \\
+                &amp;= 3\int \sec{t}\,dt + 2 \int \tan{t}\,dt
+                \end{split}</md>
+            </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{1+e^x}{1-e^x}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>u=e^x</m>, so <m>x=\ln u</m> and <m>dx = \frac{1}{u}\,du</m>. The
+              integral becomes <m>\int \frac{1+u}{1-u}\cdot\frac{1}{u} \,du</m>. Now you can do
+              partial fractions on the integrand <m>\frac{1+u}{u-u^2}</m>. </p>
+          </hint>
+          </exercise>
+
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{2t^2\,dt}{1-t^6}</m>
+            </p>
+          </statement>
+          <hint>
+            <p> The denominator factors as <md>1-t^6 = (1-t^3)(1+t^3) = (1-t)(1+t+t^2)(1+t)(1-t+t^2)</md>
+              and the two quadratic factors are irreducible (use the discriminant to show that they
+              have non-real roots). So the partial fraction decomposition takes the form <md>\frac{1}{1-t^6}
+              =
+                \frac{A}{1-t} + \frac{B}{1+t} + \frac{Cx + D}{1+t+t^2} + \frac{Ex+F}{1-t+t^2}</md>
+            </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int\frac{dx}{x^2 + 2x + 2}</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Complete the square in the denominator: <m>x^2 + 2x + 2 = (x+1)^2 + 1</m>. Then
+              substitute <m>u=x+1</m>, <m>du=dx</m>. The integral becomes <m>\int\frac{du}{u^2+1}</m>
+              . </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \sin^5 x \cos^2 x\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>u=\Cos{x}</m> and <m>du = -\Sin{x}\,dx</m>. The integral becomes <md>\int
+              \sin^5 x \cos^2 x\,dx
+                = \int \sin^4(x)\cos^2(x) \cdot\sin(x)\,dx
+                = \int (1-u^2)^2u^2\,du</md>
+            </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \sin^4 x \cos^2 x\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Use the half-angle identities. <md>\int \sin^4 x \cos^2 x\,dx = \int
+              \left(\frac{1-\cos
+                2x}{2}\right)^2\left(\frac{1+\cos{2x}}{2}\right)\,dx</md>
+            </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{\sqrt{1-x^2}}{x}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>u = \sqrt{1-x^2}</m> The integral becomes <m>\int
+                \frac{u^2\,du}{1-u^2}</m>. Now do partial fractions. </p>
+          </hint>
+          </exercise>
+
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int x \sec^{-1} x \,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Use integration by parts with <m>u = \sec^{-1}x</m>. Then <m>du=\frac{1}{x
+              \sqrt{x^2-1}}</m> , <m>dv = x\,dx</m>, and <m>v = \frac{1}{2} x^2</m>. So the integral
+              becomes <md>\int x
+                \sec^{-1} x \,dx = \frac{1}{2}x^2\sec^{-1}x - \int \frac{x}{2\sqrt{x^2-1}}\,dx</md>
+              Now substitute <m>u = x^2-1</m>, <m>du=2x\,dx</m> in the remaining integral. </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \tan^4 x\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Use the identity <m>t + \tan^2(x) = \sec^2(x)</m>. <md>\begin{split}
+                \int \tan^4 x\,dx
+                &amp;= \int \tan^2(x)\left(\sec^2(x) -1 \right) \,dx \\
+                &amp;= \int \left(\tan^2(x)\sec^2(x) -\tan^2(x) \right) \,dx \\
+                &amp;= \int \left(\tan^2(x)\sec^2(x) -\left(\sec^2(x)-1\right)\right) \,dx \\
+                &amp;= \int \left(\tan^2(x)-1\right)\sec^2(x)\,dx + \int1 \,dx \\
+                \end{split}</md> Now substitute <m>u=\tan(x)</m>, <m>du=\sec^2(x)\,dx</m> in the
+              first integral. </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{\arctan x}{1 + x^2}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>u= \arctan x</m> and <m>du= \frac{1}{1+x^2}\,dx</m>. The integral
+              becomes <m>\int
+                u \,du</m>. </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{\arctan x}{(1 + x^2)^3}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>y=\arctan x</m> and <m>dy=\frac{1}{1+x^2}\,dx</m>. Then <m>x^2 + 1 =
+              \tan^2
+                y +1 = \sec^2y</m> so the integral becomes <md>\int \frac{y}{\sec^4 y}\,dy = \int y
+              \cos^4
+                y
+                \,du</md> Now use the half-angle identities to write <m>\cos^4y</m> as a combination
+              of <m>
+                \Cos{2y}</m> and <m>\Cos{4y}</m>. Then integrate by parts with <m>u=y</m>. </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \ln\sqrt{1+x^2}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> First, the square root in the logarithm is a red herring: <md>\ln{\sqrt{1+x^2}} =
+              \frac{1}{2}{\ln{\left(1+x^2\right)}}</md> Do integration by parts with <m>u
+              =\frac{1}{2}\ln{\left(1+x^2\right)}</m>, <m>du = \frac{x}{1+x^2}\,dx</m>, <m>dv = dx</m>
+              , <m>
+                v=x</m>. The integral becomes <md>\frac{1}{2}x\ln{\left(1+x^2\right)} - \int
+              \frac{x^2}{1+x^2}\,dx</md> Now rewrite <m>\frac{x^2}{1+x^2} = 1 - \frac{1}{1+x^2}</m>
+              (long division). </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int x\ln\sqrt{1+x^2}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Again the logarithmic identities reduce the integral to <m>\frac{1}{2}\int
+              x\ln\left(1+x^2\right)\,dx</m>. Substitute <m>u=1+x^2</m> and <m>du = 2x\,dx</m>. The
+              integral becomes <m>\frac{1}{4}\int \ln{u} \,du</m>. </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \arcsin\sqrt{x}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> This is one of those <q>stab in the dark</q> integrals were you pick something
+              complicated and substitute for it. Substitute <m>y=\sqrt{x}</m>, so <m>x = y^2</m> and <m>dx
+              = 2y\,dy</m>. The integral becomes <m>\int 2 y \arcsin y\,dy</m>. Now integrate by
+              parts with <m>u=\arcsin
+                y</m> and <m>dv = 2y</m>. So <m>du = \frac{1}{\sqrt{1-y^2}}\,dy</m> and <m>v = y^2</m>.
+              The integral becomes <md>y^2 \arcsin y - \int\frac{y^2}{\sqrt{1-y^2}}\,dy</md> Now do
+              a trig substitution <m>y=\sin \theta</m> so <m>\sqrt{1-y^2} = \cos\theta</m> and <m>dy
+              =
+                \cos\theta\,d\theta</m>. The remaining integral becomes <m>\int\sin^2\theta\,d\theta</m>.
+              This can be done with a half-angle identity. </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \sqrt{\tan x}\,dx</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Substitute <m>y=\sqrt{\tan x}</m>, so <m>x = \ArcTan{y^2}</m>, and <m>dx =
+              \frac{2y}{1
+                +
+                y^4}\,dy</m>. The integral becomes <m>\int\frac{2y^2}{1+y^4}\,dy</m>. Now do partial
+              fractions; the denominator factors as <md>y^4 + 1 = -\left(-y^2+\sqrt{2} y-1\right)
+              \left(y^2+\sqrt{2} y+1\right)</md>
+            </p>
+          </hint>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{dx}{x^6 + 1}</m>
+            </p>
+          </statement>
+          <hint>
+            <p> Partial fractions. The denominator factors as <md>x^6+1 = (x^2+1)(x^4-x^2 + 1)
+                = (x^2+1)(x^2 - \sqrt{3}x + 1)(x^2 +\sqrt{3}x + 1)</md>
+            </p>
+          </hint>
+          </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

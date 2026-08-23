@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-sequences">
+      <title>Worksheet for Section 8.1</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Understand the definition and recognize a sequence
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use algebraic simplification to find the limit of a sequence
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use calculus to find the limit of a sequence
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercisegroup>
+          <title>Generating terms from a formula</title>
+
+
+          <introduction>
+            <p>
+              Write out the first five terms of each of the following sequences:
+            </p>
+          </introduction>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = \dfrac{2n}{5n-3}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = \frac{\cos(n)}{3^n}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = \left(\frac{n^3-5}{8n^3+7n}\right)^{1/3}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = 2^{\cos(\pi n)}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = \left(\frac{2}{n}\right)^{3/n}</m>
+              </p>
+            </statement>
+            </exercise>
+        </exercisegroup>
+
+        <exercisegroup>
+          <title>Inferring a formula from several terms</title>
+          <introduction>
+            <p> Find <m>a_n</m> for each of the sequences listed below. </p>
+          </introduction>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>\Seqlist{1,4,9,16,\dots}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>\Seqlist{\frac{1}{2},\frac{1}{5},\frac{1}{8},\frac{1}{11},\dots}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>\Seqlist{-\frac{3}{2},\frac{5}{4},-\frac{7}{8},\frac{9}{16},\dots}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>\Seqlist{0,2,0,2,0,2,\dots}</m>
+              </p>
+            </statement>
+            </exercise>
+        </exercisegroup>
+
+        <exercisegroup>
+          <title>Deciding convergence</title>
+          <introduction>
+            <p>
+              Guess which of the sequences converge.
+              You can use technology to get decimal approximations to the values.
+              Can you prove your answer?
+            </p>
+          </introduction>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>\Seqlist{1,4,9,16,\dots}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>\Seqlist{\frac{1}{2},\frac{1}{5},\frac{1}{8},\frac{1}{11},\dots}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>\Seqlist{-\frac{3}{2},\frac{5}{4},-\frac{7}{8},\frac{9}{16},\dots}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>\Seqlist{0,2,0,2,0,2,\dots}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = \dfrac{2n}{5n-3}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = \frac{\cos(n)}{3^n}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = \left(\frac{n^3-5}{8n^3+7n}\right)^{1/3}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = 2^{\cos(\pi n)}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>a_n = \left(\frac{2}{n}\right)^{3/n}</m>
+              </p>
+            </statement>
+            </exercise>
+        </exercisegroup>
+
+        <exercisegroup>
+          <title>Finding examples</title>
+
+
+          <introduction>
+            <p>
+              Give a example of a sequence that is:
+            </p>
+          </introduction>
+
+          <exercise>
+            <statement>
+              <p>
+                convergent but not monotone.
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                monotone but not convergent.
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                bounded but not monotone.
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                monotone decreasing and unbounded.
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                monotone increasing and convergent.
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                unbounded but not monotone.
+              </p>
+            </statement>
+            </exercise>
+
+        </exercisegroup>
+
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Suppose <m>a_k =\left( 1 + \frac{2}{k} \right)^k</m> for each <m>k</m>. Compute <m>\lim_{k
+              \to \infty} a_k</m> if it exists. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Show that the sequence defined by <m>a_1 = 2</m> and <m>a_{n+1} = \frac{1}{3 - a_n}</m>
+              for all <m>n \geq 1</m> satisfies <m>0 &lt; a_n \leq 2</m> and is decreasing. Deduce
+              that the sequence is convergent and find its limit. </p>
+          </statement>
+          </exercise>
+
+      </page>
+    </worksheet>
+  </article>
+</pretext>

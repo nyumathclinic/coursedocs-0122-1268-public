@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext>
+  <article xml:id="art-ws-pfd">
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-pfd">
+      <title>Worksheet for Section 6.3</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Find the partial fraction decomposition of rational functions.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Integrate rational functions using partial fraction decomposition.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+      <introduction>
+        <p>
+          Evaluate the integrals.
+          In the case of a definite integral, your answer should be a number.
+          For indefinite integrals, your answer should be the most general antiderivative (this means don’t forget <m>+C</m>).
+        </p>
+      </introduction>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{2 x+7}{(x-1) (x+2)} \,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{x\,dx}{x^2 -3x+ 2}</m>
+            </p>
+          </statement>
+
+          </exercise>
+      </page>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int\frac{7x+5}{x^3 + 2x^2 - x - 2}\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{dx}{x(x+1)^2}</m>
+            </p>
+          </statement>
+
+          </exercise>
+      </page>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{3 x^2+7}{(x+1) (x^2+4)}\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{3x^2 + 4x + 4}{x^3 + x}\,dx</m>.
+            </p>
+          </statement>
+
+          </exercise>
+      </page>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int \frac{\sin \theta \,d\theta}{\cos^2 \theta + \cos \theta -2}</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\displaystyle\int\frac{x^2+9 x-12}{x^3+x+10}\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

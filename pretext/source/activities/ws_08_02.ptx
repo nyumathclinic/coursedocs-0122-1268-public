@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-series">
+      <title>Worksheet for Section 8.2</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Identify convergent and divergent series.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Know the definition of a convergent series.
+            </p>
+          </li>
+
+          <li>
+            <p> Use the geometric series formulas <m>\sum_{k=0}^{n-1}ar^k=a\frac{1-r^n}{1-r}</m> and <m>\sum_{k=0}^\infty
+              ar^k=\frac{a}{1-r}</m> when <m>r &lt; 1</m>
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercisegroup>
+          <title>Testing for convergence</title>
+          <introduction>
+            <p>
+              Determine the convergence or divergence of each of the following series. If the series
+              converges, try to find the sum.
+            </p>
+          </introduction>
+
+          <exercise workspace="1in">
+            <statement>
+              <p>
+                <m>\displaystyle \sum_{n = 1}^\infty \tan n</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise workspace="1in">
+            <statement>
+              <p>
+                <m>\displaystyle \sum_{n = 1}^\infty \frac{n+1}{2n - 3}</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise workspace="1in">
+            <statement>
+              <p>
+                <m>\displaystyle \sum_{n = 1}^\infty \ln\left( \frac{n}{n+1} \right)</m>
+              </p>
+            </statement>
+            </exercise>
+
+        </exercisegroup>
+
+        <exercise workspace="1in">
+          <introduction>
+            <p> Let <m>\left\{a_n\right\}</m> be an increasing sequence such that <m>a_1 &gt;0</m>
+              and <m>a_n
+                \leq 100</m> for all <m>n \geq 1</m>. </p>
+          </introduction>
+          <task>
+            <statement>
+              <p> Does the sequence <m>\lim_{n \to \infty} a_n</m> converge? </p>
+            </statement>
+
+            </task>
+          <task>
+            <statement>
+              <p> Does the series <m>\sum_{n=1}^\infty a_n</m> converge? </p>
+            </statement>
+            </task>
+        </exercise>
+      </page>
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              Suppose that the country of Pottsylvania spends $2 billion and that each recipient of
+              a fraction of this wealth spends 90% of the dollars that he or she receives. In turn,
+              the secondary recipients spend 90% of the dollars that they receive, and so on. What
+              is the total spending that results from the original injection of $2 billion dollars
+              into the economy?
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Express <m>6.254254\ldots</m> as a ratio of two integers. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              A ball is dropped from a height of 6 ft. Each time the ball bounces, it comes back up
+              to one-half of its previous height. What is the total distance that the ball travels?
+            </p>
+          </statement>
+          </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-alternating">
+      <title>Worksheet for Section 8.4a</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p> Understand the definition of and recognize an <alert>alternating series</alert>. </p>
+          </li>
+
+          <li>
+            <p> Use the <alert>Alternating Series Test</alert> to decide the convergence of an
+              alternating series. </p>
+          </li>
+
+          <li>
+            <p>
+              Estimate the remainder of a partial sum of an alternating series.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Estimate the sum of an alternating series to a prescribed accuracy
+              by bounding the remainder.
+            </p>
+          </li>
+
+          <li>
+            <p> Understand and apply the definition of <alert>absolute convergence</alert> for a
+              series having negative and positive terms. </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine the convergence of <m>\displaystyle \sum_{n=1}^\infty
+              \frac{(-1)^{n+1}}{\sqrt{n}}</m>. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine the convergence of <m>\displaystyle \sum_{n=1}^\infty
+                \frac{(-1)^{n+1}}{n^2 + 2^n}</m>. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine the convergence of <m>\displaystyle \sum_{n=1}^\infty (-1)^n \frac{3n -
+              1}{2n + 1}</m>. </p>
+          </statement>
+
+          </exercise>
+      </page>
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Estimate the difference between <m>\sum_{n=1}^\infty \frac{(-1)^{n+1}}{\sqrt{n}}</m>
+              and <m>\sum_{n=1}^{100} \frac{(-1)^{n+1}}{\sqrt{n}}</m>. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> How many terms are sufficient to know <m>\sum_{n=1}^\infty
+              \frac{(-1)^{n+1}}{\sqrt{n}}</m> to two decimal places after rounding? </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Show that the series <m>\displaystyle \sum_{n=0}^\infty \frac{(-2)^n}{n!}</m>
+              converges. How many terms of the series do we need in order to estimate the sum of the
+              series with <m>| \text{error}| &lt; 0.01</m>? </p>
+          </statement>
+
+          </exercise>
+      </page>
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine if the series <m>\sum_{n=1}^\infty \frac{\sin(n)}{n^2}</m> converges. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine if the series <m>\sum_{n-1}^\infty (-1)^{n+1}\frac{2n}{3n^2+2}</m>
+              converges absolutely, converges conditionally, or diverges. </p>
+          </statement>
+
+          </exercise>
+
+      </page>
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> For what values of <m>p</m> does the series <m>\displaystyle \sum_{n=2}^\infty
+              (-1)^{n+1}\frac{\ln n}{n^p}</m> converge absolutely? </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Suppose that <m>a_n \geq 0</m> for all <m>n \geq 1</m>. Is it possible for <m>\sum_{n=1}^\infty
+              a_n</m> to converge conditionally? </p>
+          </statement>
+
+          </exercise>
+
+      </page>
+
+    </worksheet>
+  </article>
+</pretext>

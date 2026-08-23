@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext>
+  <article xml:id="article">
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-usub">
+      <title>Worksheet for Section 5.5</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Find antiderivatives using the method of substitution.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Evaluate definite integrals using the method of substitution.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+      <exercisegroup>
+      <title>Using Substitution</title>
+
+      <introduction>
+        <p>
+          Use the specified substitution to evaluate the given integrals.
+        </p>
+      </introduction>
+
+      <exercise xml:id="ex-usub-1">
+        
+        <statement>
+          <p>
+            <m>\int(3x-5)^{17}\,dx</m>, <m>u=3x-5</m>
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise workspace="1in">
+        
+        <statement>
+          <p>
+            <m>\int_0^4 x\sqrt{x^2+9}\,dx</m>, <m>u=x^2 + 9</m>
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise workspace="1in">
+        <statement>
+          
+          <p>
+            <m>\int \frac{e^{\sqrt x}}{\sqrt x}\,dx</m>, <m>u=\sqrt{x}</m>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise workspace="1in">
+        
+        <statement>
+          <p>
+            <m>\displaystyle\int \frac{\cos 3x\,dx}{5 + 2 \sin 3x}</m>, <m>u=5 + 2 \sin 3x</m>
+          </p>
+        </statement>
+
+        </exercise>
+
+      </exercisegroup> <exercisegroup>
+      <title>Finding Substitutions</title>
+
+      <introduction>
+        <p>
+          In these problems, you need to determine the substitution yourself.
+        </p>
+      </introduction>
+
+      <exercise workspace="1in">
+        
+        <statement>
+          <p>
+            <m>\int (4-3x)^7 \,dx</m>.
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise workspace="1in">
+        
+        <statement>
+          <p>
+            <m>\int_{\pi/4}^{\pi/3} \csc^2(5x)\,dx</m>
+          </p>
+        </statement>
+
+        </exercise>
+
+      <exercise workspace="1in">
+        <statement>
+          <p>
+            <m>\int x^2 e^{3x^3-1}\,dx</m>
+          </p>
+        </statement>
+
+        </exercise>
+      </exercisegroup>
+
+      <exercise workspace="1in">
+        <introduction>
+          <p>
+            Sometimes there is more than one way to skin a cat:
+          </p>
+        </introduction>
+
+
+        <task>
+          <statement>
+            <p>
+              Find <m>\int\frac{x}{1+x}\,dx</m>, using long division on the integrand.
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Find <m>\int\frac{x}{1+x}\,dx</m> by substituting <m>u = 1+x</m>
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Find <m>\int\frac{2z\,dz}{\sqrt[3]{z^2+1}}</m> by substituting <m>u=z^2 + 1</m>.
+            </p>
+          </statement>
+
+          </task>
+
+
+        <task>
+          <statement>
+            <p>
+              Find <m>\int\frac{2z\,dz}{\sqrt[3]{z^2+1}}</m>, by substituting <m>u=\sqrt[3]{z^2 + 1}</m>.
+            </p>
+          </statement>
+
+          </task>
+      </exercise>
+
+      <exercisegroup>
+      <title>Integration with half-angle identities</title>
+
+      <introduction>
+        <p>
+          Use the identity
+          <md>
+            \cos 2\alpha  =\cos^2 \alpha - \sin^2 \alpha = 2\cos^2\alpha -1 = 1- 2\sin^2 \alpha
+          </md>
+          to find the following:
+        </p>
+      </introduction>
+
+      <exercise workspace="1in">
+        <statement>
+          <p>
+            <m>\int\sin^2 x\,dx</m>
+          </p>
+        </statement>
+
+        </exercise>
+
+
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              <m>\int\cos^2 x\,dx</m>
+            </p>
+          </statement>
+
+          </exercise>
+        </exercisegroup>
+
+              <exercise workspace="1in">
+        <title>Symmetry</title>
+
+        <statement>
+          <p>
+            Which of the following integrals is/are equal to zero?
+          </p>
+        </statement>
+
+        <choices>
+          <choice correct="yes">
+            <statement>
+              <p>
+                <m>\displaystyle\int_{-1}^{1} \sin(x^3)\,dx</m>
+              </p>
+            </statement>
+
+            <feedback>
+              <p>
+                The interval is symmetric about the origin, and the integrand is an odd function.
+                So the integral is zero.
+              </p>
+            </feedback>
+          </choice>
+
+            <choice correct="yes">
+              <statement>
+                <p>
+                  <m>\displaystyle\int_{-1}^{1} x^3 \sin(x^2)\,dx</m>
+                </p>
+              </statement>
+
+              <feedback>
+                <p>
+                  The interval is symmetric about the origin, and the integrand is an odd function.
+                  So the integral is zero.
+                </p>
+              </feedback>
+            </choice>
+
+          <choice correct="no">
+            <statement>
+              <p>
+                <m>\displaystyle\int_{-1}^{1} x^2 e^{x^3}\,dx</m>
+              </p>
+            </statement>
+
+            <feedback>
+              <p>
+                The interval is symmetric about the origin, but the integrand is neither even nor odd.
+                The integral is equal to
+                <md>
+                  \left.\frac{1}{3}e^{x^3}\right|_{-1}^{1} = \frac{1}{3}(e - e^{-1}) &gt; 0.
+                </md>
+              </p>
+            </feedback>
+            </choice>
+
+          <choice correct="no">
+            <statement>
+              <p>
+                <m>\displaystyle\int_{-1}^{1} \sin(x^2)\,dx</m>
+              </p>
+            </statement>
+
+            <feedback>
+              <p>
+                The interval is symmetric about the origin, but the integrand is an even function.
+                The integral is equal to <m>2\int_0^1 \sin(x^2)\,dx</m>, which is positive.
+              </p>
+            </feedback>
+          </choice>
+        </choices>
+        </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              Find
+              <md>
+                \int \sec x\,dx
+              </md>
+              by multiplying the numerator and denominator by <m>\sec x + \tan x</m>.
+            </p>
+          </statement>
+
+          </exercise>
+      </worksheet>
+    </article>
+  </pretext>

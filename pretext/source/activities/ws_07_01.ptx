@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-area">
+      <title>Worksheet for Section 7.1</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Find the area of Type 1 regions bounded by curves
+              in the plane.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Find the area of Type 2 regions bounded by curves
+              in the plane.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Find the area bounded by the curves <m>y = -x</m> and <m>y = 2-x^2</m>. (Hint: you
+              first need to find where the curves intersect.) </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <task workspace="">
+            <statement>
+              <p> Draw the region bounded by the curves <m>y=x</m> and <m>x=y^2 -2</m>. </p>
+            </statement>
+            </task>
+          <task workspace="">
+            <statement>
+              <p>
+                Find the area by dividing the region into two regions where the top and bottom are
+                an algebraic function and integrating.
+              </p>
+            </statement>
+            </task>
+          <task workspace="">
+            <statement>
+              <p> Now find the same area by slicing <em>horizontally</em> instead of vertically;
+                that is, write <m>x</m> as a function of <m>y</m> and integrate against <m>dy</m>. </p>
+            </statement>
+            </task>
+          <task>
+            <statement>
+              <p>
+                Compare and contrast the two answers and the solutions.
+              </p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise workspace="1in">
+          <task workspace="">
+            <statement>
+              <p> Draw graphs of <m>y = \sin x</m> and <m>y = \cos x</m> on the same set of axes,
+                say from <m>x = 0</m> to <m>x = 4\pi</m>. </p>
+            </statement>
+            </task>
+          <task workspace="">
+            <statement>
+              <p>
+                Notice that the curves bound a certain blob which gets repeated over and over again.
+                (Every second blob is flipped horizontally.)
+              </p>
+              <p> Find the area of one of the blobs.
+              </p>
+            </statement>
+            </task>
+        </exercise>
+
+        <exercise>
+          <statement>
+            <p> Find the area bounded by the graph of <m>y = \ln x</m>, and a line joining the two
+              points <m>(1, 0)</m> and <m>(e^2, 2)</m> on the curve. </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              Suppose two circles of radius 2 are drawn with the center of each circle on the edge
+              of the other circle. What is the total area enclosed by both circles?
+            </p>
+          </statement>
+          </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

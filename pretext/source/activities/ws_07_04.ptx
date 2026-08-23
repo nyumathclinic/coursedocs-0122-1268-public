@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-arclength">
+      <title>Worksheet for Section 7.4</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Use integration to find the length of the graph of a function.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercisegroup>
+          <title>Setting up the arc length as a definite integral</title>
+          
+          <introduction>
+            <p>
+              Set up and simplify integrals that give the length of the given curves. Do not
+              evaluate the integral.
+            </p>
+          </introduction>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>y=x^2</m>, <m>0 \leq x \leq 1</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>y=x^{4/3}</m>, <m>-1 \leq x \leq 1</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>y=\ln(\cos x)</m>, <m>0 \leq x \leq \frac{\pi}{4}</m>
+              </p>
+            </statement>
+            </exercise>
+        </exercisegroup>
+
+        <exercisegroup>
+          <title>Computing arc length</title>
+          
+          <introduction>
+            <p>
+              Find the lengths of the smooth arcs given.
+            </p>
+          </introduction>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>y=\frac{2}{3}(x^2 + 1)^{3/2}</m> from <m>x=0</m> to <m>x=2</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>y=\frac{1}{6} x^3 + \frac{1}{2x}</m> from <m>x=1</m> to <m>x=3</m>
+              </p>
+            </statement>
+            </exercise>
+
+          <exercise>
+            <statement>
+              <p>
+                <m>y=\frac{1}{2}(e^x + e^{-x})</m> from <m>x=0</m> to <m>x=1</m>
+              </p>
+            </statement>
+            </exercise>
+        </exercisegroup>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Write down an integral which computes the circumference of an ellipse that has
+              semiaxes <m>a</m> and <m>b</m>. </p>
+          </statement>
+
+          </exercise>
+
+      </page>
+    </worksheet>
+  </article>
+</pretext>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-intcomp">
+      <title>Worksheet for Section 8.3</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Use the integral test to decide if a series converges.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the comparison test to decide if a series converges.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the limit comparison test to decide if a series converges.
+            </p>
+          </li>
+
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Use the integral test to determine the convergence or divergence of <m>\displaystyle
+              \sum_{n=1}^\infty \frac{1}{\sqrt[4]{n}}.</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Use the integral test to determine the convergence or divergence of <m>\displaystyle
+              \sum_{n=1}^\infty \frac{1}{n^4}.</m>
+            </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> For what values of <m>p</m> is the series <m>\displaystyle
+                \sum_{n=2}^\infty \frac{1}{n (\ln n)^p}</m> convergent? </p>
+          </statement>
+
+          </exercise>
+      </page>
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine the convergence of the series <md>\sum_{n=1}^\infty \frac{n^2 - 1}{3n^4 +
+              1}.</md>
+            </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine the convergence of the series <m>\sum_{n=2}^\infty \frac{3}{\sqrt{2n-2}}</m>
+              . </p>
+          </statement>
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine the convergence of the series <md>\sum_{n=1}^\infty \frac{n^2 + 1}{3n^4 -
+              1}.</md>
+            </p>
+          </statement>
+          </exercise>
+      </page>
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine the convergence of the series <md>\sum_{n=1}^\infty \frac{4 + 3^n}{2^n}.</md>
+            </p>
+          </statement>
+          </exercise>
+        <exercise workspace="1in">
+          <statement>
+            <p> Determine the convergence of the series <md>\sum_{n=1}^\infty \frac{1 + \sin
+              n}{10^n}.</md>
+            </p>
+          </statement>
+          </exercise>
+        <exercise workspace="1in">
+          <statement>
+            <p>
+              Do problems 4–7 with the Limit Comparison Test.
+            </p>
+          </statement>
+          </exercise>
+      </page>
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> Suppose <m>f(x)</m> is a function that is continuous, positive, and decreasing on <m>
+              [1,\infty)</m>. Let <m>f(k) = a_k</m> for all <m>k \geq 1</m>. Suppose <m>n</m> is an
+              integer. Rank the values <m>\int_1^n f(x) \, dx</m>, <m>\sum_{k=1}^{n-1} a_k</m>, and <m>
+              \sum_{k=2}^{n}a_k</m> in increasing order. </p>
+          </statement>
+          </exercise>
+        <exercise workspace="1in">
+          <statement>
+            <p> With the same conditions as in problem 10, rank the values <m>\int_n^\infty f(x) \,
+              dx</m>, <m>\sum_{k=n+1}^\infty a_k</m>, and <m>\int_{n+1}^\infty f(x) \, dx</m> in
+              increasing order. </p>
+          </statement>
+          </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

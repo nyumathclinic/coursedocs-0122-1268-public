@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-ode">
+      <title>Worksheet for Section 7.7</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p> Identify a <em>differential equation</em> and <em>initial
+                value problem</em>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Construct an ODE from a word problem
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Solve separable differential equations exactly
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Sketch the slope field of an ordinary differential equation
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the slope field of an ODE to sketch solution curves to initial
+              value problems
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+
+      <page>
+        <exercise workspace="3in" xml:id="ex-mpl-2020-ode-guess-and-check">
+          <statement>
+            <p> Show that <m>y(t) = Ke^t -1</m> satisfies the differential equation <m>y' = 1+y</m>
+              for any constant <m>K</m>. Find a value of <m>K</m> so that <m>y(0) = 4</m>. </p>
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in" xml:id="ex-rag-2000-ode-rumor">
+          <introduction>
+            <p>
+              A city has a population of 100000. One day a rumor begins to spread about
+              phenylethylamine in the drinking water. Initially two people in the town have heard
+              the rumor but within a week 10000 people have heard it.
+            </p>
+          </introduction>
+          <task xml:id="ex-rag-2000-ode-rumor-model1">
+            <statement>
+              <p>
+                Assume that the spread of a rumor is proportional to the number of people who have
+                not heard the rumor. Write an initial-value problem modeling the rumor’s spread.
+              </p>
+            </statement>
+            </task>
+          <task xml:id="ex-rag-2000-ode-rumor-model2">
+            <statement>
+              <p>
+                Now assume that the spread of a rumor is jointly proportional to the number of
+                people who have heard and who have not heard the rumor. Write an initial-value
+                problem modeling the rumor’s spread.
+              </p>
+            </statement>
+            </task>
+          <task workspace="3in" xml:id="ex-rag-2000-ode-rumor-plot">
+            <statement>
+              <p>
+                Draw slope fields modeling each of your differential equations in the last problem.
+                What do predictions can you make about the eventual spread of the rumor? Which model
+                seems more realistic?
+              </p>
+            </statement>
+            </task>
+          <task workspace="3in">
+            <statement>
+              <p>
+                Solve the more realistic initial-value problem explicitly. How long until half the
+                population of the town has heard the rumor?
+              </p>
+            </statement>
+            </task>
+        </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>
