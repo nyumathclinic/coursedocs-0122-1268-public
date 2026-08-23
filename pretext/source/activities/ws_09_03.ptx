@@ -102,7 +102,7 @@
       <page>
         <exercise workspace="1in" xml:id="ex-polar-coordinates-dy-dx-1">
           <statement>
-            <p> Plot the curve with polar equation <m>r=\Sin{3\theta}</m>. Find <m>\frac{dy}{dx}</m>
+            <p> Plot the curve with polar equation <m>r=\sin{3\theta}</m>. Find <m>\frac{dy}{dx}</m>
               at the point corresponding to <m>\theta = \frac{\pi}{6}</m>. </p>
           </statement>
 

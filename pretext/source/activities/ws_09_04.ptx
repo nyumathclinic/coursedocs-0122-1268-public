@@ -32,7 +32,7 @@
       <page>
         <exercise workspace="1in" xml:id="ex-polar-calculus-1">
           <statement>
-            <p> Find the area enclosed by the cardioid with equation <m>r = 1 - \Sin{\theta}</m>. </p>
+            <p> Find the area enclosed by the cardioid with equation <m>r = 1 - \sin{\theta}</m>. </p>
           </statement>
 
           </exercise>
@@ -40,7 +40,7 @@
         <exercise workspace="1in" xml:id="ex-polar-calculus-2">
           <statement>
             <p> Find the area inside the limaçon (with loop) given by the equation <m>r = 1 -
-              2\Sin{\theta}</m>. </p>
+              2\sin{\theta}</m>. </p>
           </statement>
 
           </exercise>

@@ -336,7 +336,7 @@
           <hint>
             <p> Break it up: <md>\begin{split}
                 \int \frac{3 + 2 \sin t}{\cos t} \,dt
-                &amp;= \int\left(\frac{3}{\Cos{t}} + \frac{2 \Sin{t}}{\Cos{t}}\right)\,dt \\
+                &amp;= \int\left(\frac{3}{\cos{t}} + \frac{2 \sin{t}}{\cos{t}}\right)\,dt \\
                 &amp;= 3\int \sec{t}\,dt + 2 \int \tan{t}\,dt
                 \end{split}</md>
             </p>
@@ -393,7 +393,7 @@
             </p>
           </statement>
           <hint>
-            <p> Substitute <m>u=\Cos{x}</m> and <m>du = -\Sin{x}\,dx</m>. The integral becomes <md>\int
+            <p> Substitute <m>u=\cos{x}</m> and <m>du = -\sin{x}\,dx</m>. The integral becomes <md>\int
               \sin^5 x \cos^2 x\,dx
                 = \int \sin^4(x)\cos^2(x) \cdot\sin(x)\,dx
                 = \int (1-u^2)^2u^2\,du</md>
@@ -488,7 +488,7 @@
                 y
                 \,du</md> Now use the half-angle identities to write <m>\cos^4y</m> as a combination
               of <m>
-                \Cos{2y}</m> and <m>\Cos{4y}</m>. Then integrate by parts with <m>u=y</m>. </p>
+                \cos{2y}</m> and <m>\cos{4y}</m>. Then integrate by parts with <m>u=y</m>. </p>
           </hint>
           </exercise>
 

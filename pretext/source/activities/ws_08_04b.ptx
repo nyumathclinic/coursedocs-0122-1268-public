@@ -11,7 +11,9 @@
           <li>
             <p> Use the <alert>Ratio Test</alert> to decide if a series converges (absolutely) </p>
           </li>
-
+          <li>
+            <p> Use the <alert>Root Test</alert> to decide if a series converges (absolutely) </p>
+          </li>
         </ul>
       </objectives>
 
