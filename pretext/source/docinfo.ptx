@@ -13,6 +13,9 @@
     \newcommand{\Z}{\mathbb Z}
     \newcommand{\Q}{\mathbb Q}
     \newcommand{\R}{\mathbb R}
+    \newcommand{\Abs}[1]{\left|#1\right|}
+    \newcommand{\ArcTan}[1]{\operatorname{arctan}\left(#1\right)}
+    \newcommand{\Seqlist}[1]{\left\{#1\right\}}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
