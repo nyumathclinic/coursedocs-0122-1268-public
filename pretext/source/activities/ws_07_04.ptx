@@ -73,7 +73,7 @@
           <exercise>
             <statement>
               <p>
-                <m>y=\frac{1}{6} x^3 + \frac{1}{2x}</m> from <m>x=1</m> to <m>x=3</m>
+                <m>y=\frac{1}{4} x^2 - \frac{1}{2}\ln x</m> from <m>x=1</m> to <m>x=2</m>
               </p>
             </statement>
             </exercise>

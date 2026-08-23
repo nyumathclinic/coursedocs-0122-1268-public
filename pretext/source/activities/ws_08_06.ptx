@@ -40,6 +40,14 @@
 
           </exercise>
 
+        <exercise workspace="1in">
+          <statement>
+            <p> Find a power series representation for <m>f(x) = \ln(1+x)</m>. What is its interval
+              of convergence? </p>
+          </statement>
+
+          </exercise>
+
       </page>
 
       <page>

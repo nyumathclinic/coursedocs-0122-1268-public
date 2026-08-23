@@ -404,13 +404,13 @@
         <exercise workspace="1in">
           <statement>
             <p>
-              <m>\displaystyle\int \sin^4 x \cos^2 x\,dx</m>
+              <m>\displaystyle\int \sin^4 x\,dx</m>
             </p>
           </statement>
           <hint>
-            <p> Use the half-angle identities. <md>\int \sin^4 x \cos^2 x\,dx = \int
-              \left(\frac{1-\cos
-                2x}{2}\right)^2\left(\frac{1+\cos{2x}}{2}\right)\,dx</md>
+            <p> Use the half-angle identity twice: first on <m>\sin^2 x</m>, then again on the <m>
+                \cos^2 2x</m> term that appears when you expand the square. <md>\int \sin^4
+              x\,dx = \int \left(\frac{1-\cos 2x}{2}\right)^2\,dx</md>
             </p>
           </hint>
           </exercise>

@@ -22,6 +22,7 @@
     <xi:include href="./ws_07_01.ptx" xpointer="xpointer(//worksheet[1])"/>
     <xi:include href="./ws_07_02.ptx" xpointer="xpointer(//worksheet[1])"/>
     <xi:include href="./ws_07_03.ptx" xpointer="xpointer(//worksheet[1])"/>
+    <xi:include href="./ws_07_03b.ptx" xpointer="xpointer(//worksheet[1])"/>
     <xi:include href="./ws_07_04.ptx" xpointer="xpointer(//worksheet[1])"/>
     <xi:include href="./ws_07_07.ptx" xpointer="xpointer(//worksheet[1])"/>
     <xi:include href="./ws_08_01.ptx" xpointer="xpointer(//worksheet[1])"/>

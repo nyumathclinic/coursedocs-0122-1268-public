@@ -66,6 +66,14 @@
           </statement>
 
           </exercise>
+
+        <exercise workspace="1in" xml:id="ex-parametric-calculus-5">
+          <statement>
+            <p> Find the points on the curve <m>x=t^3-3t</m>, <m>y=t^2</m> where the tangent line is
+              horizontal, and the points where it is vertical. </p>
+          </statement>
+
+          </exercise>
       </page>
 
     </worksheet>

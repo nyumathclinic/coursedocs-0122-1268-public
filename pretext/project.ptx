@@ -98,6 +98,12 @@
         <target name="ws-07-03-scorm" source="activities/ws_07_03.ptx" output-filename="ws_07_03.zip" format="html" output-dir="scorms" publication="publication_standalone_nosols.ptx" compression="scorm" />
         <target name="ws-07-03-pdf" source="activities/ws_07_03.ptx" output-filename="ws_07_03.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone_nosols.ptx" />
         <target name="ws-07-03-tex" source="activities/ws_07_03.ptx" output-filename="ws_07_03.tex" format="latex" output-dir="tex" publication="publication_standalone_nosols.ptx" />
+        <target name="ws-07-03b-scorm-sols" source="activities/ws_07_03b.ptx" output-filename="ws_07_03b-sol.zip" format="html" output-dir="scorms" publication="publication_standalone.ptx" compression="scorm" />
+        <target name="ws-07-03b-pdf-sols" source="activities/ws_07_03b.ptx" output-filename="ws_07_03b-sol.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone.ptx" />
+        <target name="ws-07-03b-tex-sols" source="activities/ws_07_03b.ptx" output-filename="ws_07_03b-sol.tex" format="latex" output-dir="tex" publication="publication_standalone.ptx" />
+        <target name="ws-07-03b-scorm" source="activities/ws_07_03b.ptx" output-filename="ws_07_03b.zip" format="html" output-dir="scorms" publication="publication_standalone_nosols.ptx" compression="scorm" />
+        <target name="ws-07-03b-pdf" source="activities/ws_07_03b.ptx" output-filename="ws_07_03b.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone_nosols.ptx" />
+        <target name="ws-07-03b-tex" source="activities/ws_07_03b.ptx" output-filename="ws_07_03b.tex" format="latex" output-dir="tex" publication="publication_standalone_nosols.ptx" />
         <target name="ws-07-04-scorm-sols" source="activities/ws_07_04.ptx" output-filename="ws_07_04-sol.zip" format="html" output-dir="scorms" publication="publication_standalone.ptx" compression="scorm" />
         <target name="ws-07-04-pdf-sols" source="activities/ws_07_04.ptx" output-filename="ws_07_04-sol.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone.ptx" />
         <target name="ws-07-04-tex-sols" source="activities/ws_07_04.ptx" output-filename="ws_07_04-sol.tex" format="latex" output-dir="tex" publication="publication_standalone.ptx" />

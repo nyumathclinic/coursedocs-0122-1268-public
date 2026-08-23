@@ -45,6 +45,14 @@
 
           </exercise>
 
+        <exercise workspace="1in" xml:id="ex-polar-calculus-4">
+          <statement>
+            <p> Find the area of the sector of the circle <m>r=4</m> for <m>0 \leq \theta \leq
+                \frac{\pi}{3}</m>. </p>
+          </statement>
+
+          </exercise>
+
       </page>
       <page>
         <exercise workspace="1in" xml:id="ex-polar-calculus-3">
@@ -52,6 +60,13 @@
             <p> Find the length of the curve with equation <m>r=e^{2\theta}</m>, <m>0 \leq
                 \theta\leq 2\pi</m>. </p>
 
+          </statement>
+
+          </exercise>
+
+        <exercise workspace="1in" xml:id="ex-polar-calculus-5">
+          <statement>
+            <p> Find the length of the curve <m>r=2\sin{\theta}</m> for <m>0\leq\theta\leq\pi</m>. </p>
           </statement>
 
           </exercise>

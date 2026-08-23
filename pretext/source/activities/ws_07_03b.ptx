@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <ns0:include href="../docinfo.ptx" />
+  <article>
+    <worksheet margin="1in" bottom="1.25in" xml:id="ws-volume-strategy">
+      <title>Strategies and Practice for Volume</title>
+
+      <objectives>
+        <ul>
+          <li>
+            <p>
+              Decide when a solid requires the general slicing method rather than a formula for a
+              solid of revolution.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Choose between the washer/disk method and the shell method for a solid of revolution.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Set up and evaluate volume integrals using slicing, washers, and shells.
+            </p>
+          </li>
+        </ul>
+      </objectives>
+
+      <introduction>
+        <title>Summary of volume-finding strategies</title>
+
+        <p>
+          <ol>
+            <li>
+              <p> If the solid is <em>not</em> a solid of revolution, the only way to find its
+                volume is by <alert>general slicing</alert>: cut the solid into cross-sections
+                perpendicular to some axis, express the cross-sectional area <m>A(x)</m> as a
+                function of position, and integrate <m>V=\int_a^b A(x)\,dx</m>. Choose slices that
+                make the cross-sections as simple — and as similar to each other — as possible. </p>
+
+              <p> For example, if a solid is formed by two cylinders of the same radius whose axes
+                meet at right angles, slicing perpendicular to <em>both</em> axes at once gives
+                square cross-sections, a much better choice than trying to slice parallel to only
+                one axis. </p>
+            </li>
+
+            <li>
+              <p> If the solid <em>is</em> a solid of revolution, the basic decision is <alert>washers</alert>
+                (or disks) versus <alert>shells</alert>. First decide which way you want to
+                integrate over the region — this may depend on whether the region is vertically
+                simple or horizontally simple, or your affinity for integrating inverse functions.
+                Then: </p>
+
+              <p>
+                <ul>
+                  <li>
+                    <p> If the direction of integration is <alert>parallel</alert> to the axis of
+                      rotation, use washers/disks. </p>
+                  </li>
+
+                  <li>
+                    <p> If the direction of integration is <alert>perpendicular</alert> to the axis
+                      of rotation, use shells. </p>
+                  </li>
+                </ul>
+              </p>
+
+              <p> Usually both methods are possible — there are exceptions to this rule of thumb,
+                but often one method is much easier than the other. </p>
+            </li>
+
+            <li>
+              <p> Once you've chosen a method, remember: </p>
+
+              <p>
+                <ul>
+                  <li>
+                    <p> For washers, the <alert>outer</alert> and <alert>inner</alert> radii are
+                      the distances from the axis of rotation to the far and near boundaries of the
+                      region. </p>
+                  </li>
+
+                  <li>
+                    <p> For shells, the <alert>radius</alert> is the distance from the axis of
+                      rotation to the shell, and the <alert>height</alert> is the length of the
+                      region at that position (top minus bottom, or right minus left). </p>
+                  </li>
+                </ul>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </introduction>
+
+      <page>
+        <exercise workspace="1in">
+          <statement>
+            <p> A hump of <m>y=\sin x</m>, <m>0 \leq x \leq \pi</m>, is revolved around the <m>x</m>-axis.
+              Which method would you use to find the volume, and which variable would you
+              integrate against? (You don't need to compute the volume.) </p>
+          </statement>
+
+          <hint>
+            <p> The region is naturally bounded above by <m>y=\sin x</m> and below by <m>y=0</m>,
+              so the natural direction of integration is <m>dx</m>. Compare this direction to the
+              axis of rotation. </p>
+          </hint>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> The region bounded by <m>x=2-y^2</m> and <m>y=x</m> is revolved around the line <m>
+                x=-3</m>. Which method would you use, and which variable would you integrate
+              against? </p>
+          </statement>
+
+          <hint>
+            <p> The curve <m>x=2-y^2</m> is naturally a function of <m>y</m>, and the axis of
+              rotation <m>x=-3</m> is a vertical line. </p>
+          </hint>
+
+          </exercise>
+
+        <exercise workspace="1in">
+          <statement>
+            <p> The region between <m>y=(2-x)(4-x)</m> and the <m>x</m>-axis is revolved around the <m>
+                y</m>-axis. Which method would you use, and which variable would you integrate
+              against? </p>
+          </statement>
+
+          <hint>
+            <p> The curve <m>y=(2-x)(4-x)</m> is already given as a function of <m>x</m>. </p>
+          </hint>
+
+          </exercise>
+      </page>
+
+      <page>
+        <exercise workspace="2in" xml:id="ex-volume-strategy-cylinders">
+          <statement>
+            <p> Two cylinders, each with radius <m>r</m>, have axes that meet at right angles. Find
+              the volume common to both cylinders. </p>
+          </statement>
+
+          </exercise>
+      </page>
+
+      <page>
+        <exercise workspace="2in" xml:id="ex-volume-strategy-both-ways">
+          <introduction>
+            <p> Let <m>R</m> be the region in the first quadrant bounded by the curves <m>y=x^3</m>
+              and <m>y=2x-x^2</m>. </p>
+          </introduction>
+
+          <task workspace="2in">
+            <statement>
+              <p> Find the volume of the solid obtained by revolving <m>R</m> around the <m>x</m>-axis.
+              </p>
+            </statement>
+
+            </task>
+
+          <task workspace="2in">
+            <statement>
+              <p> Find the volume of the solid obtained by revolving <m>R</m> around the <m>y</m>-axis.
+              </p>
+            </statement>
+
+            </task>
+        </exercise>
+      </page>
+
+      <page>
+        <exercise workspace="2in" xml:id="ex-volume-strategy-choose-wisely">
+          <introduction>
+            <p> Let <m>R</m> be the region bounded on the right by <m>x=4</m> and on the left by <m>
+                x=y^2</m>, for <m>-2\leq y\leq 2</m>. Notice that both boundaries are naturally
+              functions of <m>y</m> — so no matter which axis we revolve around, we should
+              integrate <m>dy</m>. Choose your method wisely. </p>
+          </introduction>
+
+          <task workspace="2in">
+            <statement>
+              <p> Find the volume of the solid obtained by revolving <m>R</m> around the <m>x</m>-axis.
+              </p>
+            </statement>
+
+            </task>
+
+          <task workspace="2in">
+            <statement>
+              <p> Find the volume of the solid obtained by revolving <m>R</m> around the <m>y</m>-axis.
+              </p>
+            </statement>
+
+            </task>
+        </exercise>
+      </page>
+
+      <page>
+        <exercise workspace="2in" xml:id="ex-volume-strategy-torus">
+          <statement>
+            <p> A solid torus (donut) is formed by revolving a disk of radius <m>b</m> centered at <m>
+                (a,0)</m>, with <m>a &gt; b &gt; 0</m>, around the <m>y</m>-axis. Explain why shells
+              (rather than washers) are the natural method here, and use them to find the volume of
+              the torus. </p>
+          </statement>
+
+          </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>
