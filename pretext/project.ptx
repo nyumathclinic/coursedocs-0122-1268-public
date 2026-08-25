@@ -221,18 +221,12 @@
         <target name="ps04-scorm-sols" source="psets/ps04.ptx" output-filename="ps04-sol.zip" format="html" output-dir="scorms" publication="publication_standalone.ptx" compression="scorm" />
         <target name="ps04-tex" source="psets/ps04.ptx" output-filename="ps04.tex" format="latex" output-dir="tex" publication="publication_standalone_nosols.ptx" />
         <target name="ps04-tex-sols" source="psets/ps04.ptx" output-filename="ps04-sol.tex" format="latex" output-dir="tex" publication="publication_standalone.ptx" />
-        <target name="ps05a-pdf" source="psets/ps05a.ptx" output-filename="ps05a.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone_nosols.ptx" />
-        <target name="ps05a-pdf-sols" source="psets/ps05a.ptx" output-filename="ps05a-sol.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone.ptx" />
-        <target name="ps05a-scorm" source="psets/ps05a.ptx" output-filename="ps05a.zip" format="html" output-dir="scorms" publication="publication_standalone_nosols.ptx" compression="scorm" />
-        <target name="ps05a-scorm-sols" source="psets/ps05a.ptx" output-filename="ps05a-sol.zip" format="html" output-dir="scorms" publication="publication_standalone.ptx" compression="scorm" />
-        <target name="ps05a-tex" source="psets/ps05a.ptx" output-filename="ps05a.tex" format="latex" output-dir="tex" publication="publication_standalone_nosols.ptx" />
-        <target name="ps05a-tex-sols" source="psets/ps05a.ptx" output-filename="ps05a-sol.tex" format="latex" output-dir="tex" publication="publication_standalone.ptx" />
-        <target name="ps05b-pdf" source="psets/ps05b.ptx" output-filename="ps05b.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone_nosols.ptx" />
-        <target name="ps05b-pdf-sols" source="psets/ps05b.ptx" output-filename="ps05b-sol.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone.ptx" />
-        <target name="ps05b-scorm" source="psets/ps05b.ptx" output-filename="ps05b.zip" format="html" output-dir="scorms" publication="publication_standalone_nosols.ptx" compression="scorm" />
-        <target name="ps05b-scorm-sols" source="psets/ps05b.ptx" output-filename="ps05b-sol.zip" format="html" output-dir="scorms" publication="publication_standalone.ptx" compression="scorm" />
-        <target name="ps05b-tex" source="psets/ps05b.ptx" output-filename="ps05b.tex" format="latex" output-dir="tex" publication="publication_standalone_nosols.ptx" />
-        <target name="ps05b-tex-sols" source="psets/ps05b.ptx" output-filename="ps05b-sol.tex" format="latex" output-dir="tex" publication="publication_standalone.ptx" />
+        <target name="ps05-pdf" source="psets/ps05.ptx" output-filename="ps05.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone_nosols.ptx" />
+        <target name="ps05-pdf-sols" source="psets/ps05.ptx" output-filename="ps05-sol.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone.ptx" />
+        <target name="ps05-scorm" source="psets/ps05.ptx" output-filename="ps05.zip" format="html" output-dir="scorms" publication="publication_standalone_nosols.ptx" compression="scorm" />
+        <target name="ps05-scorm-sols" source="psets/ps05.ptx" output-filename="ps05-sol.zip" format="html" output-dir="scorms" publication="publication_standalone.ptx" compression="scorm" />
+        <target name="ps05-tex" source="psets/ps05.ptx" output-filename="ps05.tex" format="latex" output-dir="tex" publication="publication_standalone_nosols.ptx" />
+        <target name="ps05-tex-sols" source="psets/ps05.ptx" output-filename="ps05-sol.tex" format="latex" output-dir="tex" publication="publication_standalone.ptx" />
         <target name="ps06-pdf" source="psets/ps06.ptx" output-filename="ps06.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone_nosols.ptx" />
         <target name="ps06-pdf-sols" source="psets/ps06.ptx" output-filename="ps06-sol.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone.ptx" />
         <target name="ps06-scorm" source="psets/ps06.ptx" output-filename="ps06.zip" format="html" output-dir="scorms" publication="publication_standalone_nosols.ptx" compression="scorm" />
@@ -287,6 +281,12 @@
         <target name="ps14-scorm-sols" source="psets/ps14.ptx" output-filename="ps14-sol.zip" format="html" output-dir="scorms" publication="publication_standalone.ptx" compression="scorm" />
         <target name="ps14-tex" source="psets/ps14.ptx" output-filename="ps14.tex" format="latex" output-dir="tex" publication="publication_standalone_nosols.ptx" />
         <target name="ps14-tex-sols" source="psets/ps14.ptx" output-filename="ps14-sol.tex" format="latex" output-dir="tex" publication="publication_standalone.ptx" />
+        <target name="ps15-pdf" source="psets/ps15.ptx" output-filename="ps15.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone_nosols.ptx" />
+        <target name="ps15-pdf-sols" source="psets/ps15.ptx" output-filename="ps15-sol.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone.ptx" />
+        <target name="ps15-scorm" source="psets/ps15.ptx" output-filename="ps15.zip" format="html" output-dir="scorms" publication="publication_standalone_nosols.ptx" compression="scorm" />
+        <target name="ps15-scorm-sols" source="psets/ps15.ptx" output-filename="ps15-sol.zip" format="html" output-dir="scorms" publication="publication_standalone.ptx" compression="scorm" />
+        <target name="ps15-tex" source="psets/ps15.ptx" output-filename="ps15.tex" format="latex" output-dir="tex" publication="publication_standalone_nosols.ptx" />
+        <target name="ps15-tex-sols" source="psets/ps15.ptx" output-filename="ps15-sol.tex" format="latex" output-dir="tex" publication="publication_standalone.ptx" />
         <target name="psets-pdf" source="psets/psets.ptx" output-filename="psets.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone_nosols.ptx" />
         <target name="psets-pdf-sols" source="psets/psets.ptx" output-filename="psets-sol.pdf" format="pdf" output-dir="pdfs" publication="publication_standalone.ptx" />
         <target name="psets-scorm" source="psets/psets.ptx" output-filename="psets.zip" format="html" output-dir="scorms" publication="publication_standalone_nosols.ptx" compression="scorm" />

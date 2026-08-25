@@ -4,15 +4,15 @@
     <article xml:id="art-ps09">
         <section xml:id="sec-ps09">
             <title>Problem Set 9</title>
-            <subtitle>The Integral Test and Comparison Tests</subtitle>
+            <subtitle>Sequences and Series</subtitle>
             <xi:include href="pset-intro.ptx" xpointer="xpointer(//section[1]/introduction)" />
             <exercises xml:id="exs-ps09">
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-spivak-22-1-xv'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-integral-test'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-spivak-22-1-iv'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-sum-sin-1-on-n'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-ps10-05'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-comparison-test'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-sequences-converge'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-01-64'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-01-83'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-2026-01-25-test-for-divergence'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawksi-11-02-13'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-Rogawski-11-03-45'])" />
             </exercises>
         </section>
     </article>

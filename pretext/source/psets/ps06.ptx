@@ -4,15 +4,15 @@
     <article xml:id="art-ps06">
         <section xml:id="sec-ps06">
             <title>Problem Set 6</title>
-            <subtitle>Volumes by Slicing and Cylindrical Shells</subtitle>
+            <subtitle>Area Between Curves</subtitle>
             <xi:include href="pset-intro.ptx" xpointer="xpointer(//section[1]/introduction)" />
             <exercises xml:id="exs-ps06">
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-volume-washers'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-volume-squares'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-volume-revolve-y-axis'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-shells-method'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-shells-method-2'])" />
-                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='leingang-2025-10-04-15-50-sor'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-area-between-curves-cubic-quadratic'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-area-between-curves'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='tag-paddymacmahon-com-2025-08-31-area'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-area-parabola-and-line'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-area-sine-cosine'])" />
+                <xi:include href="problems.ptx" xpointer="xpointer(//exercise[@xml:id='ex-area-cubic-y-axis'])" />
             </exercises>
         </section>
     </article>
