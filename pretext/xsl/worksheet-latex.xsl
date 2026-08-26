@@ -10,7 +10,10 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
-<xsl:import href="./core/pretext-latex.xsl"/>
+<!-- Chain through brand-fonts.xsl (NYU Perstare / Lete Sans Math), rather -->
+<!-- than importing core directly, so worksheets get the same project-wide -->
+<!-- typography as every other PDF target. -->
+<xsl:import href="brand-fonts.xsl"/>
 
 <!-- Update these once per semester -->
 <xsl:variable name="worksheet-course-name">MATH-UA 122 Calculus II</xsl:variable>

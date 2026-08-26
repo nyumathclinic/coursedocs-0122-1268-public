@@ -38,7 +38,7 @@
                 volume is by <alert>general slicing</alert>: cut the solid into cross-sections
                 perpendicular to some axis, express the cross-sectional area <m>A(x)</m> as a
                 function of position, and integrate <m>V=\int_a^b A(x)\,dx</m>. Choose slices that
-                make the cross-sections as simple — and as similar to each other — as possible. </p>
+                make the cross-sections as simple<mdash />and as similar to each other<mdash />as possible. </p>
 
               <p> For example, if a solid is formed by two cylinders of the same radius whose axes
                 meet at right angles, slicing perpendicular to <em>both</em> axes at once gives
@@ -49,7 +49,7 @@
             <li>
               <p> If the solid <em>is</em> a solid of revolution, the basic decision is <alert>washers</alert>
                 (or disks) versus <alert>shells</alert>. First decide which way you want to
-                integrate over the region — this may depend on whether the region is vertically
+                integrate over the region<mdash />this may depend on whether the region is vertically
                 simple or horizontally simple, or your affinity for integrating inverse functions.
                 Then: </p>
 
@@ -67,7 +67,7 @@
                 </ul>
               </p>
 
-              <p> Usually both methods are possible — there are exceptions to this rule of thumb,
+              <p> Usually both methods are possible<mdash />there are exceptions to this rule of thumb,
                 but often one method is much easier than the other. </p>
             </li>
 
@@ -178,7 +178,7 @@
           <introduction>
             <p> Let <m>R</m> be the region bounded on the right by <m>x=4</m> and on the left by <m>
                 x=y^2</m>, for <m>-2\leq y\leq 2</m>. Notice that both boundaries are naturally
-              functions of <m>y</m> — so no matter which axis we revolve around, we should
+              functions of <m>y</m><mdash />so no matter which axis we revolve around, we should
               integrate <m>dy</m>. Choose your method wisely. </p>
           </introduction>
 

@@ -110,6 +110,22 @@
       <!--<cover front="cover-front.pdf" back="cover-back.pdf" />-->
     <!-- Set @formatted to "no" to remove formatting on worksheets: -->
       <!--<worksheets formatted="yes" />-->
+
+    <!-- NYU brand typography (Contemporary/Subtle): NYU Perstare, xelatex/luatex only. -->
+    <fonts>
+      <!-- BoldFont: NYU Perstare has a true Bold shape, but it reads as too   -->
+      <!-- heavy for Contemporary/Subtle. Redirect \textbf/\bfseries everywhere -->
+      <!-- (body emphasis, block-title labels like "Solution.") to the softer   -->
+      <!-- Medium weight instead: still heavier than Regular body text, so it   -->
+      <!-- still reads as emphasis, but far less stark than true Bold.          -->
+      <main regular="NYU Perstare" options="BoldFont={NYU Perstare Medium}" />
+      <!-- Not actually consumed (brand-fonts.xsl fully overrides the math-font  -->
+      <!-- template to load lete-sans-math instead); setting this non-empty is   -->
+      <!-- what flips core's $b-alternate-math-font flag, which is what stops    -->
+      <!-- core from separately loading amssymb (which clashes with the symbols  -->
+      <!-- lete-sans-math already defines) elsewhere in the preamble.            -->
+      <math regular="Lete Sans Math" />
+    </fonts>
   </latex>
 
   <html>
