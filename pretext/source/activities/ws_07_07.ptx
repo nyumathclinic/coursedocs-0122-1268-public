@@ -3,7 +3,7 @@
   <ns0:include href="../docinfo.ptx" />
   <article>
     
-    <worksheet margin="1in" bottom="1.25in" xml:id="ws-ode">
+    <worksheet xml:id="ws-ode">
       <title>Worksheet for Section 7.7: Differential Equations</title>
 
       <objectives>

@@ -2,7 +2,7 @@
 <pretext>
   <article xml:id="article">
     
-    <worksheet margin="1in" bottom="1.25in" xml:id="ws-usub">
+    <worksheet xml:id="ws-usub">
       <title>Worksheet for Section 5.5: Integration by Substitution</title>
 
       <objectives>

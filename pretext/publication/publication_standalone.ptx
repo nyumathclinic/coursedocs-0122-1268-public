@@ -38,6 +38,10 @@
 
     <!-- QR code image: set path to an image to put in center of QR codes -->
       <!-- <qrcode image="image.png" /> -->
+
+    <!-- Uniform margin for worksheets (LaTeX/PDF only; no effect on psets, -->
+    <!-- which do not use the <worksheet> element). -->
+    <worksheet margin="1in" />
   </common>
 
 
@@ -104,8 +108,6 @@
 
     <!-- Covers: provide paths to pdfs for front and back covers: -->
       <!--<cover front="cover-front.pdf" back="cover-back.pdf" />-->
-    <!-- Set @formatted to "no" to remove formatting on worksheets: -->
-      <!--<worksheet formatted="yes" />-->
   </latex>
 
   <html>
