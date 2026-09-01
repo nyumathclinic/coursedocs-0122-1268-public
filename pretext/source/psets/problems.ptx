@@ -108,7 +108,7 @@
     <statement>
       <p>
         Let <m>g(x) = \int_0^{x^2} \sin(t^3) \, dt</m>.
-        Find the exact value of <m> g'(x)</m> .
+        Find <m>g'(x)</m> as a closed-form expression of <m>x</m>.
       </p>
     </statement>
 
@@ -1965,15 +1965,15 @@ f(t) = sqrt(cos(2*t))
       <dc:creator>Claude</dc:creator>
       <ns1:created>2026-08-22</ns1:created>
     </provenance>
-    <statement>
+    <introduction>
       <p>
         The limit
         <md>
           \lim_{n \to \infty} \sum_{i=1}^n \left(1 + \frac{3i}{n}\right)\frac{3}{n}
         </md>
-        is a right Riemann sum for a definite integral <m>\int_a^b f(x)\,dx</m> of some function <m>f</m> over some interval <m>[a,b]</m>.
+        is the limit of a right Riemann sum for a definite integral <m>\int_a^b f(x)\,dx</m> of some function <m>f</m> over some interval <m>[a,b]</m>.
       </p>
-    </statement>
+    </introduction>
 
     <task>
       <statement>

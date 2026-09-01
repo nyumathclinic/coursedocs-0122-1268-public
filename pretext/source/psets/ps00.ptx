@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pretext xmlns:ns0="http://www.w3.org/2001/XInclude">
-    <ns0:include href="../docinfo.ptx" />
+    <ns0:include href="../docinfo.ptx" parse="xml" />
     <article xml:id="art-ps00">
         <section xml:id="sec-ps00">
             <title>Problem Set 0</title>
@@ -29,7 +29,7 @@
                     Uploading is not the last step.
                     Once your file is uploaded, Gradescope will prompt you to
                     match each page to the corresponding problem number.
-                    <strong>This matching step is crucial</strong>: double-check
+                    <em>This matching step is crucial</em>: double-check
                     your selections, since unmatched or mismatched pages may
                     result in a penalty on future assignments.
                     You can resubmit your work as many times as you like before
