@@ -27,6 +27,15 @@
     <target name="activities-print" format="pdf" source="activities/activities.ptx"
             output-filename="activities.pdf" publication="publication.ptx" xsl="brand-fonts.xsl" />
 
+    <target name="handout-integrals-pdf" source="handouts/table-of-integrals.ptx" format="pdf"
+            output-filename="table-of-integrals.pdf" output-dir="pdfs"
+            publication="publication_standalone_nosols.ptx" xsl="brand-fonts.xsl" />
+    <target name="handout-integrals-web" source="handouts/table-of-integrals.ptx" format="html"
+            publication="publication_standalone_nosols.ptx" />
+    <target name="handout-integrals-scorm" source="handouts/table-of-integrals.ptx" format="html"
+            output-filename="table-of-integrals.zip" output-dir="scorms"
+            publication="publication_standalone_nosols.ptx" compression="scorm" />
+
     <!-- removed deploy-dir="notes" since this source file doesn't exist yet -->
     <target name="notes-web" format="html" source="notes.ptx"
             publication="publication.ptx" />

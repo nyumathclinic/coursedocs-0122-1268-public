@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="../docinfo.ptx" />
+  <article xml:id="article">
+    <handout xml:id="handout-integrals">
+      <title>Table of Integrals</title>
+
+      <introduction>
+        <p>
+          Formula numbers match the Table of Integrals in Stewart,
+          <pubtitle>Calculus: Early Transcendentals</pubtitle>, 7th edition (Reference Pages 6<ndash/>10).
+        </p>
+      </introduction>
+
+      <paragraphs xml:id="integrals-basic">
+        <title>Basic Forms</title>
+        <sidebyside widths="48% 48%" margins="0%">
+          <p>
+            <md>
+              <mrow>\int u\,dv \amp = uv - \int v\,du \tag{1}</mrow>
+              <mrow>\int u^n\,du \amp = \frac{u^{n+1}}{n+1} + C,\quad n \neq -1 \tag{2}</mrow>
+              <mrow>\int \frac{du}{u} \amp = \ln\lvert u\rvert + C \tag{3}</mrow>
+              <mrow>\int e^u\,du \amp = e^u + C \tag{4}</mrow>
+              <mrow>\int a^u\,du \amp = \frac{a^u}{\ln a} + C \tag{5}</mrow>
+              <mrow>\int \sin u\,du \amp = -\cos u + C \tag{6}</mrow>
+              <mrow>\int \cos u\,du \amp = \sin u + C \tag{7}</mrow>
+              <mrow>\int \sec^2 u\,du \amp = \tan u + C \tag{8}</mrow>
+              <mrow>\int \csc^2 u\,du \amp = -\cot u + C \tag{9}</mrow>
+              <mrow>\int \sec u \tan u\,du \amp = \sec u + C \tag{10}</mrow>
+            </md>
+          </p>
+          <p>
+            <md>
+              <mrow>\int \csc u \cot u\,du \amp = -\csc u + C \tag{11}</mrow>
+              <mrow>\int \tan u\,du \amp = \ln\lvert \sec u\rvert + C \tag{12}</mrow>
+              <mrow>\int \cot u\,du \amp = \ln\lvert \sin u\rvert + C \tag{13}</mrow>
+              <mrow>\int \sec u\,du \amp = \ln\lvert \sec u + \tan u\rvert + C \tag{14}</mrow>
+              <mrow>\int \csc u\,du \amp = \ln\lvert \csc u - \cot u\rvert + C \tag{15}</mrow>
+              <mrow>\int \frac{du}{\sqrt{a^2 - u^2}} \amp = \sin^{-1}\frac{u}{a} + C,\quad a \gt 0 \tag{16}</mrow>
+              <mrow>\int \frac{du}{a^2 + u^2} \amp = \frac{1}{a}\tan^{-1}\frac{u}{a} + C \tag{17}</mrow>
+              <mrow>\int \frac{du}{u\sqrt{u^2 - a^2}} \amp = \frac{1}{a}\sec^{-1}\frac{u}{a} + C \tag{18}</mrow>
+              <mrow>\int \frac{du}{a^2 - u^2} \amp = \frac{1}{2a}\ln\left\lvert\frac{u + a}{u - a}\right\rvert + C \tag{19}</mrow>
+              <mrow>\int \frac{du}{u^2 - a^2} \amp = \frac{1}{2a}\ln\left\lvert\frac{u - a}{u + a}\right\rvert + C \tag{20}</mrow>
+            </md>
+          </p>
+        </sidebyside>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-a2-plus-u2">
+        <title>Forms Involving <m>\sqrt{a^2 + u^2}</m>, <m>a \gt 0</m></title>
+        <p>
+          <md>
+            <mrow>\int \sqrt{a^2 + u^2}\,du \amp = \frac{u}{2}\sqrt{a^2 + u^2} + \frac{a^2}{2}\ln\bigl(u + \sqrt{a^2 + u^2}\bigr) + C \tag{21}</mrow>
+            <mrow>\int u^2\sqrt{a^2 + u^2}\,du \amp = \frac{u}{8}(a^2 + 2u^2)\sqrt{a^2 + u^2} - \frac{a^4}{8}\ln\bigl(u + \sqrt{a^2 + u^2}\bigr) + C \tag{22}</mrow>
+            <mrow>\int \frac{\sqrt{a^2 + u^2}}{u}\,du \amp = \sqrt{a^2 + u^2} - a\ln\left\lvert\frac{a + \sqrt{a^2 + u^2}}{u}\right\rvert + C \tag{23}</mrow>
+            <mrow>\int \frac{\sqrt{a^2 + u^2}}{u^2}\,du \amp = -\frac{\sqrt{a^2 + u^2}}{u} + \ln\bigl(u + \sqrt{a^2 + u^2}\bigr) + C \tag{24}</mrow>
+            <mrow>\int \frac{du}{\sqrt{a^2 + u^2}} \amp = \ln\bigl(u + \sqrt{a^2 + u^2}\bigr) + C \tag{25}</mrow>
+            <mrow>\int \frac{u^2\,du}{\sqrt{a^2 + u^2}} \amp = \frac{u}{2}\sqrt{a^2 + u^2} - \frac{a^2}{2}\ln\bigl(u + \sqrt{a^2 + u^2}\bigr) + C \tag{26}</mrow>
+            <mrow>\int \frac{du}{u\sqrt{a^2 + u^2}} \amp = -\frac{1}{a}\ln\left\lvert\frac{\sqrt{a^2 + u^2} + a}{u}\right\rvert + C \tag{27}</mrow>
+            <mrow>\int \frac{du}{u^2\sqrt{a^2 + u^2}} \amp = -\frac{\sqrt{a^2 + u^2}}{a^2 u} + C \tag{28}</mrow>
+            <mrow>\int \frac{du}{(a^2 + u^2)^{3/2}} \amp = \frac{u}{a^2\sqrt{a^2 + u^2}} + C \tag{29}</mrow>
+          </md>
+        </p>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-a2-minus-u2">
+        <title>Forms Involving <m>\sqrt{a^2 - u^2}</m>, <m>a \gt 0</m></title>
+        <p>
+          <md>
+            <mrow>\int \sqrt{a^2 - u^2}\,du \amp = \frac{u}{2}\sqrt{a^2 - u^2} + \frac{a^2}{2}\sin^{-1}\frac{u}{a} + C \tag{30}</mrow>
+            <mrow>\int u^2\sqrt{a^2 - u^2}\,du \amp = \frac{u}{8}(2u^2 - a^2)\sqrt{a^2 - u^2} + \frac{a^4}{8}\sin^{-1}\frac{u}{a} + C \tag{31}</mrow>
+            <mrow>\int \frac{\sqrt{a^2 - u^2}}{u}\,du \amp = \sqrt{a^2 - u^2} - a\ln\left\lvert\frac{a + \sqrt{a^2 - u^2}}{u}\right\rvert + C \tag{32}</mrow>
+            <mrow>\int \frac{\sqrt{a^2 - u^2}}{u^2}\,du \amp = -\frac{1}{u}\sqrt{a^2 - u^2} - \sin^{-1}\frac{u}{a} + C \tag{33}</mrow>
+            <mrow>\int \frac{u^2\,du}{\sqrt{a^2 - u^2}} \amp = -\frac{u}{2}\sqrt{a^2 - u^2} + \frac{a^2}{2}\sin^{-1}\frac{u}{a} + C \tag{34}</mrow>
+            <mrow>\int \frac{du}{u\sqrt{a^2 - u^2}} \amp = -\frac{1}{a}\ln\left\lvert\frac{a + \sqrt{a^2 - u^2}}{u}\right\rvert + C \tag{35}</mrow>
+            <mrow>\int \frac{du}{u^2\sqrt{a^2 - u^2}} \amp = -\frac{1}{a^2 u}\sqrt{a^2 - u^2} + C \tag{36}</mrow>
+            <mrow>\int (a^2 - u^2)^{3/2}\,du \amp = -\frac{u}{8}(2u^2 - 5a^2)\sqrt{a^2 - u^2} + \frac{3a^4}{8}\sin^{-1}\frac{u}{a} + C \tag{37}</mrow>
+            <mrow>\int \frac{du}{(a^2 - u^2)^{3/2}} \amp = \frac{u}{a^2\sqrt{a^2 - u^2}} + C \tag{38}</mrow>
+          </md>
+        </p>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-u2-minus-a2">
+        <title>Forms Involving <m>\sqrt{u^2 - a^2}</m>, <m>a \gt 0</m></title>
+        <p>
+          <md>
+            <mrow>\int \sqrt{u^2 - a^2}\,du \amp = \frac{u}{2}\sqrt{u^2 - a^2} - \frac{a^2}{2}\ln\bigl\lvert u + \sqrt{u^2 - a^2}\bigr\rvert + C \tag{39}</mrow>
+            <mrow>\int u^2\sqrt{u^2 - a^2}\,du \amp = \frac{u}{8}(2u^2 - a^2)\sqrt{u^2 - a^2} - \frac{a^4}{8}\ln\bigl\lvert u + \sqrt{u^2 - a^2}\bigr\rvert + C \tag{40}</mrow>
+            <mrow>\int \frac{\sqrt{u^2 - a^2}}{u}\,du \amp = \sqrt{u^2 - a^2} - a\cos^{-1}\frac{a}{\lvert u\rvert} + C \tag{41}</mrow>
+            <mrow>\int \frac{\sqrt{u^2 - a^2}}{u^2}\,du \amp = -\frac{\sqrt{u^2 - a^2}}{u} + \ln\bigl\lvert u + \sqrt{u^2 - a^2}\bigr\rvert + C \tag{42}</mrow>
+            <mrow>\int \frac{du}{\sqrt{u^2 - a^2}} \amp = \ln\bigl\lvert u + \sqrt{u^2 - a^2}\bigr\rvert + C \tag{43}</mrow>
+            <mrow>\int \frac{u^2\,du}{\sqrt{u^2 - a^2}} \amp = \frac{u}{2}\sqrt{u^2 - a^2} + \frac{a^2}{2}\ln\bigl\lvert u + \sqrt{u^2 - a^2}\bigr\rvert + C \tag{44}</mrow>
+            <mrow>\int \frac{du}{u^2\sqrt{u^2 - a^2}} \amp = \frac{\sqrt{u^2 - a^2}}{a^2 u} + C \tag{45}</mrow>
+            <mrow>\int \frac{du}{(u^2 - a^2)^{3/2}} \amp = -\frac{u}{a^2\sqrt{u^2 - a^2}} + C \tag{46}</mrow>
+          </md>
+        </p>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-a-plus-bu">
+        <title>Forms Involving <m>a + bu</m></title>
+        <p>
+          <md>
+            <mrow>\int \frac{u\,du}{a + bu} \amp = \frac{1}{b^2}\bigl(a + bu - a\ln\lvert a + bu\rvert\bigr) + C \tag{47}</mrow>
+            <mrow>\int \frac{u^2\,du}{a + bu} \amp = \frac{1}{2b^3}\Bigl[(a + bu)^2 - 4a(a + bu) + 2a^2\ln\lvert a + bu\rvert\Bigr] + C \tag{48}</mrow>
+            <mrow>\int \frac{du}{u(a + bu)} \amp = \frac{1}{a}\ln\left\lvert\frac{u}{a + bu}\right\rvert + C \tag{49}</mrow>
+            <mrow>\int \frac{du}{u^2(a + bu)} \amp = -\frac{1}{au} + \frac{b}{a^2}\ln\left\lvert\frac{a + bu}{u}\right\rvert + C \tag{50}</mrow>
+            <mrow>\int \frac{u\,du}{(a + bu)^2} \amp = \frac{a}{b^2(a + bu)} + \frac{1}{b^2}\ln\lvert a + bu\rvert + C \tag{51}</mrow>
+            <mrow>\int \frac{du}{u(a + bu)^2} \amp = \frac{1}{a(a + bu)} - \frac{1}{a^2}\ln\left\lvert\frac{a + bu}{u}\right\rvert + C \tag{52}</mrow>
+            <mrow>\int \frac{u^2\,du}{(a + bu)^2} \amp = \frac{1}{b^3}\left(a + bu - \frac{a^2}{a + bu} - 2a\ln\lvert a + bu\rvert\right) + C \tag{53}</mrow>
+            <mrow>\int u\sqrt{a + bu}\,du \amp = \frac{2}{15b^2}(3bu - 2a)(a + bu)^{3/2} + C \tag{54}</mrow>
+            <mrow>\int \frac{u\,du}{\sqrt{a + bu}} \amp = \frac{2}{3b^2}(bu - 2a)\sqrt{a + bu} + C \tag{55}</mrow>
+            <mrow>\int \frac{u^2\,du}{\sqrt{a + bu}} \amp = \frac{2}{15b^3}(8a^2 + 3b^2u^2 - 4abu)\sqrt{a + bu} + C \tag{56}</mrow>
+            <mrow>\int \frac{du}{u\sqrt{a + bu}} \amp = \frac{1}{\sqrt{a}}\ln\left\lvert\frac{\sqrt{a + bu} - \sqrt{a}}{\sqrt{a + bu} + \sqrt{a}}\right\rvert + C, \quad \text{if } a \gt 0 \tag{57}</mrow>
+            <mrow>\amp = \frac{2}{\sqrt{-a}}\tan^{-1}\sqrt{\frac{a + bu}{-a}} + C, \quad \text{if } a \lt 0 \notag</mrow>
+            <mrow>\int \frac{\sqrt{a + bu}}{u}\,du \amp = 2\sqrt{a + bu} + a\int \frac{du}{u\sqrt{a + bu}} \tag{58}</mrow>
+            <mrow>\int \frac{\sqrt{a + bu}}{u^2}\,du \amp = -\frac{\sqrt{a + bu}}{u} + \frac{b}{2}\int \frac{du}{u\sqrt{a + bu}} \tag{59}</mrow>
+            <mrow>\int u^n\sqrt{a + bu}\,du \amp = \frac{2}{b(2n + 3)}\left[u^n(a + bu)^{3/2} - na\int u^{n-1}\sqrt{a + bu}\,du\right] \tag{60}</mrow>
+            <mrow>\int \frac{u^n\,du}{\sqrt{a + bu}} \amp = \frac{2u^n\sqrt{a + bu}}{b(2n + 1)} - \frac{2na}{b(2n + 1)}\int \frac{u^{n-1}\,du}{\sqrt{a + bu}} \tag{61}</mrow>
+            <mrow>\int \frac{du}{u^n\sqrt{a + bu}} \amp = -\frac{\sqrt{a + bu}}{a(n - 1)u^{n-1}} - \frac{b(2n - 3)}{2a(n - 1)}\int \frac{du}{u^{n-1}\sqrt{a + bu}} \tag{62}</mrow>
+          </md>
+        </p>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-trig">
+        <title>Trigonometric Forms</title>
+        <sidebyside widths="48% 48%" margins="0%">
+          <p>
+            <md>
+              <mrow>\int \sin^2 u\,du \amp = \tfrac{1}{2}u - \tfrac{1}{4}\sin 2u + C \tag{63}</mrow>
+              <mrow>\int \cos^2 u\,du \amp = \tfrac{1}{2}u + \tfrac{1}{4}\sin 2u + C \tag{64}</mrow>
+              <mrow>\int \tan^2 u\,du \amp = \tan u - u + C \tag{65}</mrow>
+              <mrow>\int \cot^2 u\,du \amp = -\cot u - u + C \tag{66}</mrow>
+            </md>
+          </p>
+          <p>
+            <md>
+              <mrow>\int \sin^3 u\,du \amp = -\tfrac{1}{3}(2 + \sin^2 u)\cos u + C \tag{67}</mrow>
+              <mrow>\int \cos^3 u\,du \amp = \tfrac{1}{3}(2 + \cos^2 u)\sin u + C \tag{68}</mrow>
+              <mrow>\int \tan^3 u\,du \amp = \tfrac{1}{2}\tan^2 u + \ln\lvert\cos u\rvert + C \tag{69}</mrow>
+              <mrow>\int \cot^3 u\,du \amp = -\tfrac{1}{2}\cot^2 u - \ln\lvert\sin u\rvert + C \tag{70}</mrow>
+            </md>
+          </p>
+        </sidebyside>
+        <p>
+          <md>
+            <mrow>\int \sec^3 u\,du \amp = \tfrac{1}{2}\sec u\tan u + \tfrac{1}{2}\ln\lvert\sec u + \tan u\rvert + C \tag{71}</mrow>
+            <mrow>\int \csc^3 u\,du \amp = -\tfrac{1}{2}\csc u\cot u + \tfrac{1}{2}\ln\lvert\csc u - \cot u\rvert + C \tag{72}</mrow>
+            <mrow>\int \sin^n u\,du \amp = -\frac{1}{n}\sin^{n-1} u\cos u + \frac{n - 1}{n}\int \sin^{n-2} u\,du \tag{73}</mrow>
+            <mrow>\int \cos^n u\,du \amp = \frac{1}{n}\cos^{n-1} u\sin u + \frac{n - 1}{n}\int \cos^{n-2} u\,du \tag{74}</mrow>
+            <mrow>\int \tan^n u\,du \amp = \frac{1}{n - 1}\tan^{n-1} u - \int \tan^{n-2} u\,du \tag{75}</mrow>
+            <mrow>\int \cot^n u\,du \amp = \frac{-1}{n - 1}\cot^{n-1} u - \int \cot^{n-2} u\,du \tag{76}</mrow>
+            <mrow>\int \sec^n u\,du \amp = \frac{1}{n - 1}\tan u\sec^{n-2} u + \frac{n - 2}{n - 1}\int \sec^{n-2} u\,du \tag{77}</mrow>
+            <mrow>\int \csc^n u\,du \amp = \frac{-1}{n - 1}\cot u\csc^{n-2} u + \frac{n - 2}{n - 1}\int \csc^{n-2} u\,du \tag{78}</mrow>
+            <mrow>\int \sin au\sin bu\,du \amp = \frac{\sin(a - b)u}{2(a - b)} - \frac{\sin(a + b)u}{2(a + b)} + C \tag{79}</mrow>
+            <mrow>\int \cos au\cos bu\,du \amp = \frac{\sin(a - b)u}{2(a - b)} + \frac{\sin(a + b)u}{2(a + b)} + C \tag{80}</mrow>
+            <mrow>\int \sin au\cos bu\,du \amp = -\frac{\cos(a - b)u}{2(a - b)} - \frac{\cos(a + b)u}{2(a + b)} + C \tag{81}</mrow>
+            <mrow>\int u\sin u\,du \amp = \sin u - u\cos u + C \tag{82}</mrow>
+            <mrow>\int u\cos u\,du \amp = \cos u + u\sin u + C \tag{83}</mrow>
+            <mrow>\int u^n\sin u\,du \amp = -u^n\cos u + n\int u^{n-1}\cos u\,du \tag{84}</mrow>
+            <mrow>\int u^n\cos u\,du \amp = u^n\sin u - n\int u^{n-1}\sin u\,du \tag{85}</mrow>
+            <mrow>\int \sin^n u\cos^m u\,du \amp = -\frac{\sin^{n-1} u\cos^{m+1} u}{n + m} + \frac{n - 1}{n + m}\int \sin^{n-2} u\cos^m u\,du \tag{86}</mrow>
+            <mrow>\amp = \frac{\sin^{n+1} u\cos^{m-1} u}{n + m} + \frac{m - 1}{n + m}\int \sin^n u\cos^{m-2} u\,du \notag</mrow>
+          </md>
+        </p>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-inverse-trig">
+        <title>Inverse Trigonometric Forms</title>
+        <p>
+          <md>
+            <mrow>\int \sin^{-1} u\,du \amp = u\sin^{-1} u + \sqrt{1 - u^2} + C \tag{87}</mrow>
+            <mrow>\int \cos^{-1} u\,du \amp = u\cos^{-1} u - \sqrt{1 - u^2} + C \tag{88}</mrow>
+            <mrow>\int \tan^{-1} u\,du \amp = u\tan^{-1} u - \tfrac{1}{2}\ln(1 + u^2) + C \tag{89}</mrow>
+            <mrow>\int u\sin^{-1} u\,du \amp = \frac{2u^2 - 1}{4}\sin^{-1} u + \frac{u\sqrt{1 - u^2}}{4} + C \tag{90}</mrow>
+            <mrow>\int u\cos^{-1} u\,du \amp = \frac{2u^2 - 1}{4}\cos^{-1} u - \frac{u\sqrt{1 - u^2}}{4} + C \tag{91}</mrow>
+            <mrow>\int u\tan^{-1} u\,du \amp = \frac{u^2 + 1}{2}\tan^{-1} u - \frac{u}{2} + C \tag{92}</mrow>
+            <mrow>\int u^n\sin^{-1} u\,du \amp = \frac{1}{n + 1}\left[u^{n+1}\sin^{-1} u - \int \frac{u^{n+1}\,du}{\sqrt{1 - u^2}}\right],\quad n \neq -1 \tag{93}</mrow>
+            <mrow>\int u^n\cos^{-1} u\,du \amp = \frac{1}{n + 1}\left[u^{n+1}\cos^{-1} u + \int \frac{u^{n+1}\,du}{\sqrt{1 - u^2}}\right],\quad n \neq -1 \tag{94}</mrow>
+            <mrow>\int u^n\tan^{-1} u\,du \amp = \frac{1}{n + 1}\left[u^{n+1}\tan^{-1} u - \int \frac{u^{n+1}\,du}{1 + u^2}\right],\quad n \neq -1 \tag{95}</mrow>
+          </md>
+        </p>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-exp-log">
+        <title>Exponential and Logarithmic Forms</title>
+        <p>
+          <md>
+            <mrow>\int ue^{au}\,du \amp = \frac{1}{a^2}(au - 1)e^{au} + C \tag{96}</mrow>
+            <mrow>\int u^n e^{au}\,du \amp = \frac{1}{a}u^n e^{au} - \frac{n}{a}\int u^{n-1}e^{au}\,du \tag{97}</mrow>
+            <mrow>\int e^{au}\sin bu\,du \amp = \frac{e^{au}}{a^2 + b^2}(a\sin bu - b\cos bu) + C \tag{98}</mrow>
+            <mrow>\int e^{au}\cos bu\,du \amp = \frac{e^{au}}{a^2 + b^2}(a\cos bu + b\sin bu) + C \tag{99}</mrow>
+            <mrow>\int \ln u\,du \amp = u\ln u - u + C \tag{100}</mrow>
+            <mrow>\int u^n\ln u\,du \amp = \frac{u^{n+1}}{(n + 1)^2}\bigl[(n + 1)\ln u - 1\bigr] + C \tag{101}</mrow>
+            <mrow>\int \frac{1}{u\ln u}\,du \amp = \ln\lvert\ln u\rvert + C \tag{102}</mrow>
+          </md>
+        </p>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-hyperbolic">
+        <title>Hyperbolic Forms</title>
+        <sidebyside widths="48% 48%" margins="0%">
+          <p>
+            <md>
+              <mrow>\int \sinh u\,du \amp = \cosh u + C \tag{103}</mrow>
+              <mrow>\int \cosh u\,du \amp = \sinh u + C \tag{104}</mrow>
+              <mrow>\int \tanh u\,du \amp = \ln\cosh u + C \tag{105}</mrow>
+              <mrow>\int \coth u\,du \amp = \ln\lvert\sinh u\rvert + C \tag{106}</mrow>
+              <mrow>\int \operatorname{sech} u\,du \amp = \tan^{-1}\lvert\sinh u\rvert + C \tag{107}</mrow>
+            </md>
+          </p>
+          <p>
+            <md>
+              <mrow>\int \operatorname{csch} u\,du \amp = \ln\bigl\lvert\tanh\tfrac{1}{2}u\bigr\rvert + C \tag{108}</mrow>
+              <mrow>\int \operatorname{sech}^2 u\,du \amp = \tanh u + C \tag{109}</mrow>
+              <mrow>\int \operatorname{csch}^2 u\,du \amp = -\coth u + C \tag{110}</mrow>
+              <mrow>\int \operatorname{sech} u\tanh u\,du \amp = -\operatorname{sech} u + C \tag{111}</mrow>
+              <mrow>\int \operatorname{csch} u\coth u\,du \amp = -\operatorname{csch} u + C \tag{112}</mrow>
+            </md>
+          </p>
+        </sidebyside>
+      </paragraphs>
+
+      <paragraphs xml:id="integrals-2au-minus-u2">
+        <title>Forms Involving <m>\sqrt{2au - u^2}</m>, <m>a \gt 0</m></title>
+        <p>
+          <md>
+            <mrow>\int \sqrt{2au - u^2}\,du \amp = \frac{u - a}{2}\sqrt{2au - u^2} + \frac{a^2}{2}\cos^{-1}\left(\frac{a - u}{a}\right) + C \tag{113}</mrow>
+            <mrow>\int u\sqrt{2au - u^2}\,du \amp = \frac{2u^2 - au - 3a^2}{6}\sqrt{2au - u^2} + \frac{a^3}{2}\cos^{-1}\left(\frac{a - u}{a}\right) + C \tag{114}</mrow>
+            <mrow>\int \frac{\sqrt{2au - u^2}}{u}\,du \amp = \sqrt{2au - u^2} + a\cos^{-1}\left(\frac{a - u}{a}\right) + C \tag{115}</mrow>
+            <mrow>\int \frac{\sqrt{2au - u^2}}{u^2}\,du \amp = -\frac{2\sqrt{2au - u^2}}{u} - \cos^{-1}\left(\frac{a - u}{a}\right) + C \tag{116}</mrow>
+            <mrow>\int \frac{du}{\sqrt{2au - u^2}} \amp = \cos^{-1}\left(\frac{a - u}{a}\right) + C \tag{117}</mrow>
+            <mrow>\int \frac{u\,du}{\sqrt{2au - u^2}} \amp = -\sqrt{2au - u^2} + a\cos^{-1}\left(\frac{a - u}{a}\right) + C \tag{118}</mrow>
+            <mrow>\int \frac{u^2\,du}{\sqrt{2au - u^2}} \amp = -\frac{(u + 3a)}{2}\sqrt{2au - u^2} + \frac{3a^2}{2}\cos^{-1}\left(\frac{a - u}{a}\right) + C \tag{119}</mrow>
+            <mrow>\int \frac{du}{u\sqrt{2au - u^2}} \amp = -\frac{\sqrt{2au - u^2}}{au} + C \tag{120}</mrow>
+          </md>
+        </p>
+      </paragraphs>
+    </handout>
+  </article>
+</pretext>

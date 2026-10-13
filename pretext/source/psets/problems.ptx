@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pretext xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="https://prefigure.org">
+<article xml:id="problem-bank">
+<title>Problem bank</title>
+<p>Exercises here are pulled into the problem sets by <c>xi:include</c>.</p>
+<exercises xml:id="problem-bank-exercises">
   <exercise xml:id="umich_2024-02-12_0116_4">
     <provenance> <dc:creator>Matthew Leingang</dc:creator> <ns1:created>2025-08-18</ns1:created> <dc:source>https://dhsp.math.lsa.umich.edu/exams/116exam1/w24/p4.pdf</dc:source> <dc:rights>This source is used under a Creative Commons License (CC-BY-NC-SA-4.0).</dc:rights> </provenance>
     <introduction>
@@ -493,7 +497,7 @@
               function to an infinite integral by defining the average value of 
               <m>f</m> on <m>[a,\infty)</m> to be 
               <md>
-                \bar f = \lim_{t\to\infty}\frac{1}{t-a} \int_a^\infty f(x)\,dx
+                \bar f = \lim_{t\to\infty}\frac{1}{t-a} \int_a^t f(x)\,dx
               </md>
             </p>
           </introduction>
@@ -1045,7 +1049,8 @@ f(t,y) = y-1
 
       <exercise xml:id="ex-Rogawski-11-03-45">
         <statement>
-          <figure>
+          <figure xml:id="ex-Rogawski-11-03-45-fig">
+            <caption>See <xref ref="ex-Rogawski-11-03-45" /></caption>
             <image>
               <ns2:prefigure label="prefig-ex-Rogawski-11-03-45">
               <ns2:diagram dimensions="(300,300)" margins="5">
@@ -1108,7 +1113,7 @@ a=(1+a)/2
           </figure>
 
           <p>
-            Use a geometric series to find the total length of the infinite zigzag path shown in the figure (each zag occurs at an angle of <m> \frac{\pi}{4}</m>).
+            Use a geometric series to find the total length of the infinite zigzag path shown in <xref ref="ex-Rogawski-11-03-45-fig" /> (each zag occurs at an angle of <m> \frac{\pi}{4}</m>).
           </p>
         </statement>
 
@@ -1422,13 +1427,13 @@ a=(1+a)/2
           </exercise>
 
         <exercise xml:id="ex-Rogawski-11-7-84">
-          <statement>
+          <introduction>
             <p>
               In this exercise we will prove that the Maclaurin series for 
               <m>f(x) = ln(1+x)</m> converges to <m>f(1)</m> at <m>x=1</m>.
               This allows us to find the sum of the alternating harmonic series.
             </p>
-          </statement>
+          </introduction>
           <task>
             <statement>
               <p>
@@ -1535,6 +1540,7 @@ a=(1+a)/2
                   </p>
                 </li>
               </ol>
+            </p>
               <figure xml:id="ex-Rogawski-12-01-19-fig">
                 <caption>Four parametric curves</caption>
                 <sbsgroup widths="45% 45%">
@@ -1632,7 +1638,6 @@ a=(1+a)/2
                   </sidebyside>
                 </sbsgroup>
               </figure>
-            </p>
           </statement>
           </exercise>
 
@@ -1662,6 +1667,7 @@ a=(1+a)/2
                 The parabolic curve shown in <xref ref="ex-Rogawski-12-01-37-fig" />. 
               </p>
               <figure xml:id="ex-Rogawski-12-01-37-fig">
+                <caption>See <xref ref="ex-Rogawski-12-01-37" /></caption>
                 <image>
                   <ns2:prefigure label="ex-Rogawski-12-01-37-prefig">
                     <ns2:diagram dimensions="(300,300)" margins="5">
@@ -1682,7 +1688,7 @@ a=(1+a)/2
 
         <exercise xml:id="ex-Rogawski-12-01-64">
           <statement>
-            <p>A <quantity><mag>10</mag><unit base="foot" /></quantity> ladder slides down a wall as its bottom B is pulled away from the wall (Figure <xref ref="ex-Rogawski-12-01-64-fig" />). 
+            <p>A <quantity><mag>10</mag><unit base="foot" /></quantity> ladder slides down a wall as its bottom B is pulled away from the wall (<xref ref="ex-Rogawski-12-01-64-fig" />). 
               Using the angle <m>\theta</m> as parameter, find the parametric equations for the path followed by:
               <ol>
                 <li>the top of the ladder <m>A</m></li>
@@ -1692,6 +1698,7 @@ a=(1+a)/2
               Show that <m>P</m> describes an ellipse.
             </p>
             <figure xml:id="ex-Rogawski-12-01-64-fig">
+              <caption>See <xref ref="ex-Rogawski-12-01-64" /></caption>
               <image>
                 <ns2:prefigure label="ex-Rogawski-12-01-64-prefig">
                   <ns2:diagram dimensions="(300,300)" margins="5">
@@ -1763,6 +1770,7 @@ a=(1+a)/2
             See <xref ref="ex-Larson-10-03-84-fig" />.
           </p>
             <figure xml:id="ex-Larson-10-03-84-fig">
+              <caption>See <xref ref="ex-Larson-10-03-84" /></caption>
               <image>
                 <ns2:prefigure label="ex-Larson-10-03-84-prefig">
                   <ns2:diagram dimensions="(300,300)" margins="5">
@@ -2046,4 +2054,6 @@ f(t) = sqrt(cos(2*t))
 
     </exercise>
 
+</exercises>
+</article>
 </pretext>
